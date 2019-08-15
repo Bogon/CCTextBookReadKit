@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CCTextBookReadKit'
-  s.version          = '0.1.2'
+  s.version          = '1.1.0'
   s.summary          = 'CCTextBookReadKit 是一个解析text文本的小说解析器，其目的是主要是解析Text或者是网络文本。本版本最低支持iOS 10.0'
   s.swift_version = '4.0'
 
