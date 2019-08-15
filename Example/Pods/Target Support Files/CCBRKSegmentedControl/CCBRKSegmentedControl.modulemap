@@ -1,0 +1,6 @@
+framework module CCBRKSegmentedControl {
+  umbrella header "CCBRKSegmentedControl-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,2785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01C45673236420E80D9CDA313EB2F213 /* DZMRMEffectTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD969156DAC0EBF9C4020EEBE4C67378 /* DZMRMEffectTypeView.swift */; };
+		03B41444FE6349EC2E8F6B94FBCC496F /* error@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = A221DCDDFE24BB8E28181BEADFC5E355 /* error@2x.png */; };
+		04263BA18791CF44CD6BF7817BC7B7B9 /* CCTextBookReadKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 65AFDD15F5B4EF971D82C179AD1551CF /* CCTextBookReadKit.bundle */; };
+		0674C8F0AD6CEAF774601D9DA82810B2 /* DZMReadHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509DCC3EE9363C8C42AE0FC376E5383F /* DZMReadHomeView.swift */; };
+		06D1610B69C11DB14A02F54887125116 /* DZMReadPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD92CC61A470206487ECAE0A66FC52E5 /* DZMReadPageModel.swift */; };
+		09049999B969BC2BE420C9D1D4EC4858 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA4FDEE69F7429418DA8D28B6CBC6E0 /* Foundation.framework */; };
+		0991C4C18315717AFF5172795C6D731C /* DZMReadMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F75C4F7C1498F14CC9D44680CB360A /* DZMReadMenu.swift */; };
+		09B66257B877001FC467F07235396342 /* DZMBatteryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B92A0A19D0608C2C53BA0F587AF6990 /* DZMBatteryView.swift */; };
+		0A591102B03CDE8DCF33F02E5A7D083C /* CCBRKValuePopUpView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B6B199B9115ED9E503F17848D5BBB4 /* CCBRKValuePopUpView.framework */; };
+		0E2196BCED9255CF818694FEA889066E /* CCBRKMagnifierView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5128B769FD9EC0DCEA1780C37324D8E1 /* CCBRKMagnifierView.bundle */; };
+		0F84B1618221A8B735825F14AA549131 /* CCProgressHUDKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97825D9C6E3FAB0E16EABEFE8EB1773B /* CCProgressHUDKit-dummy.m */; };
+		105372626A3D14F82BD8041F811519BF /* right.png in Sources */ = {isa = PBXBuildFile; fileRef = F757DB80566B044A03159F2CD1F43636 /* right.png */; };
+		11629CD39B8FBEE1A417B52B6833F34C /* UIPageViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FAA2A1860B60F21A75906EE3D9CF6C /* UIPageViewController+Extension.swift */; };
+		12B9DE6BF1CF3D620D99419EC2343EE9 /* CCBRKMagnifierView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D59795B9BADECFA47BB0D9335AB34971 /* CCBRKMagnifierView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		185BC0F3ECC7F60B90DA48D5387A5DA2 /* DZMReadModel+Mark.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C31BB151CC86A3A6AD8651CDBE5487 /* DZMReadModel+Mark.swift */; };
+		1BC4DBC7677141733B1EBCFF85055836 /* CCBRKValuePopUpView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3C3DACD1053B306C8EF9CD109AD4AB /* CCBRKValuePopUpView-dummy.m */; };
+		1C7F54504B4A658BD217796232FF183C /* DZMReadCatalogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCC888B606E05A9BE11C44E459C4F9D /* DZMReadCatalogCell.swift */; };
+		1FB10E9C6D0B9883671D42649D57E7E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA4FDEE69F7429418DA8D28B6CBC6E0 /* Foundation.framework */; };
+		20FC6C128A53C1E0C59F5A1E28C08031 /* magnifier_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E564ABD2708A024F7F843D30355A203 /* magnifier_1.png */; };
+		21BE05189311916B2D8E6400FBCBC4A6 /* CCBRKValueTrackingSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = A48D07A2B4DB70AF7CD05AE46F8E229A /* CCBRKValueTrackingSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22F32D8F27D40D5AF4C57D1E4A0ACA20 /* DZMKeyedArchiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C89DDBE75607DC8E1A69CA14F5B678 /* DZMKeyedArchiver.swift */; };
+		26D70FE41F59C5AB84002BC7764D0155 /* UINavigationController+FDFullscreenPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = D1530E71BBF0E3114BCD4265E4663B49 /* UINavigationController+FDFullscreenPopGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27568E3C2D2CA2327B9335B778422EB6 /* DZMRMFontTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072E87E485D015E017F48F3E667373F3 /* DZMRMFontTypeView.swift */; };
+		29FD3B1B4721A2F95DE458CFC0377E3A /* DZMReadLongPressCursorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1557F4973A72F04218FC335D45F6F2A0 /* DZMReadLongPressCursorView.swift */; };
+		2AB3CF18B6252F0B50CD60B165C8427F /* DZMRMBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C4F8322F889652C71D09073051276E /* DZMRMBottomView.swift */; };
+		2AF5061BD67C84598E6215BA99FD99BD /* CCBRKSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CE45E03CB7D22FC6B8633EA9CD1C3041 /* CCBRKSegmentedControl.m */; };
+		2B3AB37055BE7E574C998688F635C0F4 /* slider.png in Sources */ = {isa = PBXBuildFile; fileRef = 44C039918B2851230A7F010EBD35D32A /* slider.png */; };
+		2C971DB436BBC38D04C2A3BC96198872 /* DZMRMLightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AFE0139362369DDAB514A04670100A /* DZMRMLightView.swift */; };
+		2DB0A61962BA7624321B2878CC2F6FFB /* DZMReadViewBGController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9812C00FE4A51E50BC662259D654913 /* DZMReadViewBGController.swift */; };
+		2EB150EC007EEBC586CE94143B158B16 /* DZMReadViewScrollController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A322E7A9D8B699CA6425DF189A130109 /* DZMReadViewScrollController.swift */; };
+		2F7C0F2A314A6D13887BCD325492EB5B /* spacing_1.png in Sources */ = {isa = PBXBuildFile; fileRef = BB33F00F613DB3113B8E07CDE90B668E /* spacing_1.png */; };
+		2FE20DFAF06CB81367C6A4F8B65DD15E /* light_1.png in Sources */ = {isa = PBXBuildFile; fileRef = E969AB7B3071259E446D9FB7A2C1E660 /* light_1.png */; };
+		30414138BEDD2D989D7FF43E847142F7 /* DZMReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31081DF57B0596EC491786595728ED5E /* DZMReadViewController.swift */; };
+		311AB23E99F2040F879446597262D613 /* DZMReadMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD9B2B436AF45EDE2D949990930CB95 /* DZMReadMarkView.swift */; };
+		31A38A08EFC99FC12BB8414C96E5613A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA4FDEE69F7429418DA8D28B6CBC6E0 /* Foundation.framework */; };
+		35771081FA0877C3E575EB04AE62B135 /* DZMReadCatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6FD47FED4E7164A7ECC5B4E4A9E76A /* DZMReadCatalogView.swift */; };
+		366BAA2990351647928C5E6AF30D0E8A /* DZMReadChapterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4DA996720A4E84B1FAD2B89C990ABC /* DZMReadChapterModel.swift */; };
+		37B12641833EB88A19B0CB7343FFD89E /* DZMReadHomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346125AE2262B262B77BE54A9A73E73C /* DZMReadHomeViewCell.swift */; };
+		39C1BB8A1B60239ADEBB5A952A7CC132 /* FDFullscreenPopGesture-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A72A2110BA56084314CCE1AB17D76EC /* FDFullscreenPopGesture-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		467436C5CC82DA1A66263CDEDC29A11B /* battery_black.png in Sources */ = {isa = PBXBuildFile; fileRef = DD07AEF4EC4FFA0613D1F9FBA82AFF57 /* battery_black.png */; };
+		46D173A55321B11DCE0F2B83161CC4DE /* CCBRKMagnifierView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAE81DD6A1595E9133929C1474EB4AB /* CCBRKMagnifierView.framework */; };
+		49547FF0BC09E1029222D79E5500B5D2 /* mark.png in Sources */ = {isa = PBXBuildFile; fileRef = 863241E51D911115F4027127BDE0FA88 /* mark.png */; };
+		4CCD8FB1E61E1582EEF4897A7639ABF2 /* DZMReadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88563CC90F4943BF8416940AFE1C070 /* DZMReadView.swift */; };
+		4F00D6ADBFA8ED54B2B37A270A2CAB11 /* DZMRMBGColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB8C04F6925F33BC7345082AA4E5C63 /* DZMRMBGColorView.swift */; };
+		530BE5EFA6D119083F82D1E68F1076CD /* DZMReadLeftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBEE170224B02567687E867A6DDC020 /* DZMReadLeftView.swift */; };
+		53CB7165CA9FE57EE2E9467783BEC78E /* bar_1.png in Sources */ = {isa = PBXBuildFile; fileRef = E8CB8C4CACA4EAE0A2FD408831462B49 /* bar_1.png */; };
+		54674EBE6D2DB4AE4A0ABAFA60CAF7F1 /* Pods-CCTextBookReadKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A7B0AE1E9D09FF2EDF6A511AB61964 /* Pods-CCTextBookReadKit_Tests-dummy.m */; };
+		548C80C8593980C9A38AD0567A4AA21E /* CCBRKMagnifierView.h in Headers */ = {isa = PBXBuildFile; fileRef = 64EA7A8203EFD90B25580B6D8496DAC7 /* CCBRKMagnifierView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57B717EA1E9FED8359494706A960502E /* CCBRKCoverController.h in Headers */ = {isa = PBXBuildFile; fileRef = 36AF1E91CA6C09575D7DCC47FAEE8C59 /* CCBRKCoverController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5834E2EE7BC8811B7693FA70B6E95C60 /* DZMSpaceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1F4DC35D5C14C665C3893412E6EB74 /* DZMSpaceList.swift */; };
+		5ACB249DE144AF67638D16492B3A05A8 /* CCBRKSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 99FD94A548EE7884A40B703359311221 /* CCBRKSegmentedControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D62551D2EEBFB5467D8998BE8EEA907 /* CCProgressHUDKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CF6206D270E38867493C93005C437F67 /* CCProgressHUDKit.bundle */; };
+		62E2E8194B4961441B6EA812D2A26D25 /* CCBRKCoverController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2A6CFA0FF6DE4A56C4F65DB975E53E2 /* CCBRKCoverController.framework */; };
+		65C0CC1B74BA16B886E8B27DD250A022 /* DZMRMBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B964B3DEF5B93098357A76F6A313A734 /* DZMRMBaseView.swift */; };
+		6A882571702B1BA1632F0A4F59ACA205 /* DZMReadMarkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C77B7208A6C7900FA3590BE88A7FE90 /* DZMReadMarkModel.swift */; };
+		6B108B247AEBDCDA0C0188524C121746 /* Pods-CCTextBookReadKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A478694F0DB850DAF4462B3DA5B92FD5 /* Pods-CCTextBookReadKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E0B4EC81D69FC14323ABD3B29754B4E /* DZMReadTextParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866358A49D9CB85F3C3823279C749EF5 /* DZMReadTextParser.swift */; };
+		6F554388F5BCFCE6E072F530742473BB /* DZMReadController+Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F85FC405783C0E950C707676C652A9C /* DZMReadController+Operation.swift */; };
+		70F309122D51019BB4AF20A8CF2FB9F6 /* CCBRKCoverController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EC500CE7C4C188DCF0B2D42ED806EF4 /* CCBRKCoverController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		742E5CFDBE55783A2BE8B571C4BE89AF /* DZMUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2295F1338B800335F239A55BE73A01 /* DZMUserDefaults.swift */; };
+		75C5BE7DCC112C28068F8953A4D5F3F4 /* CCBRKSegmentedControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5ABD9FE7B139183F3CEB97669FCFCEA /* CCBRKSegmentedControl-dummy.m */; };
+		777D691C1FD311E29367DAEEFA230399 /* CCBRKValuePopUpView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4D6C077B0BB09093B589A4E8A99B35C /* CCBRKValuePopUpView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78E1F478FFDD7DE4A900262B3A01E6BE /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F85E767B9B4442588F984F8C3E7C56E7 /* MBProgressHUD.bundle */; };
+		7A92C29A576B7582905E9EC06E1734D8 /* bar_2.png in Sources */ = {isa = PBXBuildFile; fileRef = 34DBE837B7B8724911ECE62335D6641A /* bar_2.png */; };
+		7CB8171DC1EB7D7CCAC4398D9B5CF080 /* DZMReadController+EffectType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4312E197CF67F06876233B8E2AA841 /* DZMReadController+EffectType.swift */; };
+		7D127B4A544F635692D67A0DD852D81A /* CCBRKSegmentedControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17D720CAE8145D280CE739576A0C6B6B /* CCBRKSegmentedControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DFA3B58CB1DA6098BD59954C2984701 /* bar_0.png in Sources */ = {isa = PBXBuildFile; fileRef = C5BC28A5304723BD5FD3934FD58077AB /* bar_0.png */; };
+		81600865F9F1DB7C375201E47BB39D25 /* DZMReadLongPressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EB84183EBCFE0131F040D85EF8A9B8 /* DZMReadLongPressView.swift */; };
+		8185AC1C39CD1DC6B88E03333A26289D /* MBProgressHUD+CCUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB7C030A2D5ADB4EBD26877CD666A85 /* MBProgressHUD+CCUD.m */; };
+		837BB7AD65EC930D6C54BA53CF7DF9A6 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5C7357C5DE723524C32FEC938A84CF /* UINavigationController+FDFullscreenPopGesture.m */; };
+		85AFCBB9FA0DE0371E003B62FF40888A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA4FDEE69F7429418DA8D28B6CBC6E0 /* Foundation.framework */; };
+		86C4FD0B9D2EC8675C43B66FF9325EB1 /* MBProgressHUD+CCUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C0B6B47F5E5B0B2C6C7A99D9F161D78 /* MBProgressHUD+CCUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87953CD3ABA19C133D25EF62F9A27576 /* DZMRMFontSizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4207DED5D18B0E4714754564CF8C3D /* DZMRMFontSizeView.swift */; };
+		881FA7587FF708439657AEB08CAD464C /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5390CFA5D44766B0045B27294723075E /* String+Extension.swift */; };
+		89C696329993FE5B495000CB1601D94F /* DZMReadViewStatusBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5647DB9C4C1A771205764E25D0BCC9 /* DZMReadViewStatusBottomView.swift */; };
+		8B6F79DEB8BAC20E2D465ED73BC8C482 /* FDFullscreenPopGesture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2AE56E19A30EC48113E28D9433DF9E9 /* FDFullscreenPopGesture.framework */; };
+		8C342FC6430CC2830F9EE9F31F7274C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA4FDEE69F7429418DA8D28B6CBC6E0 /* Foundation.framework */; };
+		90DD8551809817349949635B49DCF3DE /* CCTextBookReadKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D0A7B34F7BED1D83C8B311B86E019C /* CCTextBookReadKit-dummy.m */; };
+		95F3EECC7C92EA20F68ADFA45214F1B3 /* DZMReadMarkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DCE1F9B81BB30C42E3A3F70F2B2FBD /* DZMReadMarkCell.swift */; };
+		95F689612DE1F8F7D0E5935EC14EE1E9 /* DZMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C493325D96C08D2FB12811CFE1ED3A7 /* DZMViewController.swift */; };
+		99613D895C54F1A90A6181865C349081 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E81B2C6F9A0B75D7118109F9CA434A /* MBProgressHUD.m */; };
+		9A9EEBF2BB73698608B64274E283E081 /* FDFullscreenPopGesture-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B016C759DADD75A4B3F2D93578FFBB70 /* FDFullscreenPopGesture-dummy.m */; };
+		9B17D83074BFC502CE967CD83E1EE139 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA4FDEE69F7429418DA8D28B6CBC6E0 /* Foundation.framework */; };
+		9BC3E8AA22F8697D99993CD877A218AB /* DZMFontList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADABDE8A0D499A686E9BBE55EFC812E /* DZMFontList.swift */; };
+		9BE03CDDC865584B0550105D7898305D /* DZMRMFuncView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9119817EFB7159730C9B4F590ED5EB /* DZMRMFuncView.swift */; };
+		9BEF9889FEA90BA2A01A5EB11EAF6662 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA4FDEE69F7429418DA8D28B6CBC6E0 /* Foundation.framework */; };
+		9CFF626C5E528AFEA037CA37D78449DF /* DZMReadChapterListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5C665853458BCF0F628189D2D1F4F9 /* DZMReadChapterListModel.swift */; };
+		A3AE6542D3F523CA39687D85FF4E651E /* DZMPublic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D076673A0DDA3C0AD3EAF86417663E /* DZMPublic.swift */; };
+		A6C19CC4E82C94F5BA87532C0434346E /* CCBRKSegmentedControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7FFDC9A3031C4EEEEFCE1A89299831B /* CCBRKSegmentedControl.framework */; };
+		A8D0CA9FC8E903FF2C3EA1D7949CBCB7 /* DZMRMSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0354431017D5D464565BEB521D3E2CB9 /* DZMRMSettingView.swift */; };
+		A9AAAF7FDBFF4B0204E53D3A23A5FAEE /* DZMTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68637971C8D46A8877053DF19BD96FCF /* DZMTableView.swift */; };
+		A9F58DB40FBDD6A12E1DFBEFE14E8D84 /* error@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 7A3CDE995D252770DA889BC8CFAD41F9 /* error@3x.png */; };
+		AEA3012A1B0A593D150755524E089638 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD1D59AD00102192072C669E0DD1179 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF38613278C4A042D53838420D43A24D /* read_bg_0.png in Sources */ = {isa = PBXBuildFile; fileRef = 9372A9AF60FEFE67175B380CBBE139FD /* read_bg_0.png */; };
+		B139ABF74C39BF08B21D3CB90A0AFCF9 /* right@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = D43596A5C80C559635CC0E90CD30AB22 /* right@2x.png */; };
+		B25B971FFEB631293DEC4D4A507899CC /* CCProgressHUDKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 491035071647F98F37503011198348C1 /* CCProgressHUDKit.framework */; };
+		B3151E261D3361B0752A0215330D500A /* CCProgressHUDKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01E5FF64EBBAA1C1264FD8CF939F7F8B /* CCProgressHUDKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B474FA3F35CBCE5FD31CD865D4AF275B /* DZMRMSpacingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9067E4C6BAA5EC71A1B3187F9C64B9B /* DZMRMSpacingView.swift */; };
+		B565693BEA8A57DF5D515AE199C94335 /* light_0.png in Sources */ = {isa = PBXBuildFile; fileRef = 84D4A10794B646D87DA50EE121003F90 /* light_0.png */; };
+		B67E03561ED2865A32BDD8C5704D3721 /* DZMEnumList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FD7A066402F61820527C40BA6E4CC2 /* DZMEnumList.swift */; };
+		B718D9CA921A54ED6587B83C0E04F680 /* CCBRKValuePopUpView.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A5A4085E97D942CC2286DF9772411C /* CCBRKValuePopUpView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B87E3244896775BE32F457850868CDEE /* CCBRKMagnifierView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C59DDE598D8FE487B16998A82DC2B8CD /* CCBRKMagnifierView-dummy.m */; };
+		B8DFC91997D6E477A9477ECA2EE59229 /* DZMReadParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D84238F6E0DB7F4BA65DF85DCDC6DA8 /* DZMReadParser.swift */; };
+		B979DAAAC37049E02093A5BB64CF2E1D /* DZMReadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2CD6AC07204E9277BFDE65CE2E0FC1 /* DZMReadModel.swift */; };
+		B9E903D95187227B8968C493EA754CE1 /* page.png in Sources */ = {isa = PBXBuildFile; fileRef = 98C7C504398E887B38C17AB5F5FD862E /* page.png */; };
+		BA380E464D84675D4971D7175D460D92 /* DZMReadViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE78B65C9D024ADB7BF30CE2C21086A /* DZMReadViewCell.swift */; };
+		BAFC430CF38ABC8EF367ABEA3BB99DB9 /* DZMRMProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E551B2B55AE64B15E47D5961938E39 /* DZMRMProgressView.swift */; };
+		BDA287661E4119736131468C552C92ED /* CCTextBookReadKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2D89ED0510788B710EA7C66BD53699E /* CCTextBookReadKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDC42BF74DA2756B51BD3C257EE2893C /* DZMReadTextFastParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56709448DF715C0122A8BC9818DAE7E9 /* DZMReadTextFastParser.swift */; };
+		BFA021D567723DAC68A78384E18863BF /* DZMRMTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0DCB577861394EBCA5CF88CEE701A /* DZMRMTopView.swift */; };
+		C4C39E8A1D180634C0220B80FF8ED390 /* right@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 745CBDCD04553DB4AEF4F58EB50EF655 /* right@3x.png */; };
+		C536396E291E6FED6C14145B6CD01712 /* Pods-CCTextBookReadKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE7E3006787079795543E7B71FA85091 /* Pods-CCTextBookReadKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD3C24738DC777CAD6F479A5739C2E2C /* CCTextBookReadKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5C6B3953A0AA530451F5A2D6B4920B04 /* CCTextBookReadKit.bundle */; };
+		D27378252B2F522FF8B875353820D392 /* CCBRKCoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBB672A262F797F0AC668E685C2FCB /* CCBRKCoverController.m */; };
+		D3CCB484E0DF0B266CDD20E129FDCBE4 /* Pods-CCTextBookReadKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E30B01C191E81F3A6992DF15AD8BB391 /* Pods-CCTextBookReadKit_Example-dummy.m */; };
+		D44687CF59B8F7BB961F8DBE597609DB /* DZMColorList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEF8D9368E35ECC8023E277F38EBEBD /* DZMColorList.swift */; };
+		D581BE0467DB86A6EAF4CFDDA44E23CF /* DZMReadContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69AFF9FDE0A575AF4E84ACF70BEB20A /* DZMReadContentView.swift */; };
+		D5C0A43DB95383FB0946E905FC11F88B /* DZMReadLongPressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C1ACC3B39918573ADF4F4F9F895614 /* DZMReadLongPressViewController.swift */; };
+		D7187F60E4B19382D17E9F5C02025179 /* DZMReadController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1322BF875568FDA492536B04B7ADA0A6 /* DZMReadController.swift */; };
+		D82A9CF9AB6E37511755F21E3B156527 /* CCBRKValueTrackingSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 28246DA837E73CDDEB6CB96EA8BA0FE1 /* CCBRKValueTrackingSlider.m */; };
+		D8FD349C9944F7432D654306795762CF /* DZMReadRecordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2273056F981B1A122E0D6F45A827266 /* DZMReadRecordModel.swift */; };
+		DB00FFD1CA8D138F09FED73FBFD973CE /* CCBRKCoverController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E2922D3B82CA6474FB4645CE2AA082 /* CCBRKCoverController-dummy.m */; };
+		DC1C4B8783C94072A16223AA9FD663B8 /* read_bg_0_icon.png in Sources */ = {isa = PBXBuildFile; fileRef = C4EB6EFF5FD76356BBC9EEE9B82AA76D /* read_bg_0_icon.png */; };
+		E3D8AA30DEB8FED815EEFC0C1A4DAD7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA4FDEE69F7429418DA8D28B6CBC6E0 /* Foundation.framework */; };
+		E6991FC73CD1039F8983001905E7FB91 /* spacing_0.png in Sources */ = {isa = PBXBuildFile; fileRef = 5095482E30BD6CA17CC2A81AD7D4F210 /* spacing_0.png */; };
+		E6F17364B7552EEA2D5EC26DBAFA951A /* error.png in Sources */ = {isa = PBXBuildFile; fileRef = 1F813E2C128FCC19F1738D8A7023A4E8 /* error.png */; };
+		E84C5426E3E716A61266361AD14BB545 /* DZMCoreText.swift in Sources */ = {isa = PBXBuildFile; fileRef = E739BE61043479483FA4C51C771BA299 /* DZMCoreText.swift */; };
+		EB90EBE5D1746A2EFDF695A25E15DD55 /* CCBRKMagnifierView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F6E2BC99F64F801B01C2C2E0814CD0 /* CCBRKMagnifierView.m */; };
+		ECD204E777A49D04DE4D99973243C34C /* magnifier_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 2279A3A8E13D8416FA126D69DAA0025D /* magnifier_0.png */; };
+		ED87906E5E69B1D29F3EA1D1C9C2FE29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA4FDEE69F7429418DA8D28B6CBC6E0 /* Foundation.framework */; };
+		F500D389CD76EC020E905B127D039976 /* back.png in Sources */ = {isa = PBXBuildFile; fileRef = 9AE417F114D9AE4D81096A19456071FA /* back.png */; };
+		FA09AED756A4DE7AD708B611D4C9FB66 /* CCBRKValuePopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7C9E166A8AC5FB10BBE65F3C948E8F /* CCBRKValuePopUpView.m */; };
+		FD10AA32459B84F099BA9376C31EA633 /* DZMReadConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D6DD6659243A23EF3BFDD5C47C4860 /* DZMReadConfigure.swift */; };
+		FD6A9B8F0F6C4E3A31B382B96E67AE7D /* DZMReadViewStatusTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893C0D42873B464EFCDE2C6D0D1DA8D1 /* DZMReadViewStatusTopView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08900352DBBF376CAEFEF03DDFDDC4F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B483ADC692492C447700169224CEA3F8;
+			remoteInfo = CCBRKCoverController;
+		};
+		1A0D6EF1D9A97C32C01F36AF6ADC1E94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FE0EB310F454719A11FBFEAAC09FE3E;
+			remoteInfo = FDFullscreenPopGesture;
+		};
+		34CF603DA7A82E47C16BE877DAB31168 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 220D89CF2B9EFE37FA51F466D8652BD0;
+			remoteInfo = CCBRKSegmentedControl;
+		};
+		429B443460AEF25CDD66DBFC4096D774 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7498201E78E06E95E88094A7C36032C;
+			remoteInfo = "CCProgressHUDKit-CCProgressHUDKit";
+		};
+		4F0A52ED4276F7DAAB7DAE25F5C295CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8DB8ED2CBD7AFC85EF29DCBD0A340D9;
+			remoteInfo = "Pods-CCTextBookReadKit_Example";
+		};
+		60249EC4750A61E3D9C8C385E0C2157F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A944CA70888A6EFA328B718A00A5B73;
+			remoteInfo = CCBRKValuePopUpView;
+		};
+		93302A96F2542BAF8100156548999350 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D68498288A7E0C51150112480E3D2DD;
+			remoteInfo = CCProgressHUDKit;
+		};
+		A4447D907ECC4D310C0B8B9507EB059C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D68498288A7E0C51150112480E3D2DD;
+			remoteInfo = CCProgressHUDKit;
+		};
+		A634F350FE16CE7A5012FF4B62C30066 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 220D89CF2B9EFE37FA51F466D8652BD0;
+			remoteInfo = CCBRKSegmentedControl;
+		};
+		B3CB8C419DE0FD7C8ABDDCFC220FBB49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EA99DB8A80793C30E7F265F358DB2A8;
+			remoteInfo = "CCBRKMagnifierView-CCBRKMagnifierView";
+		};
+		BD12BAB8E51D977DC244A27AF537E172 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FE0EB310F454719A11FBFEAAC09FE3E;
+			remoteInfo = FDFullscreenPopGesture;
+		};
+		BF4C7585F4789FD6B52E92E99E1BCDEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B64142844EAE36F96EEC8005923F43D;
+			remoteInfo = CCBRKMagnifierView;
+		};
+		CDC2286779C9E5EEB3D73D1CFBB909B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CDD8FAD9933A193C2E55FF8CCBC0062;
+			remoteInfo = CCTextBookReadKit;
+		};
+		DBB2401B3874130F045A3490A4AF813B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A944CA70888A6EFA328B718A00A5B73;
+			remoteInfo = CCBRKValuePopUpView;
+		};
+		DC47C627748D19569887CA0DA934FAFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1D0D77A1BC85CED900704608B749555;
+			remoteInfo = "CCTextBookReadKit-CCTextBookReadKit";
+		};
+		EA8979255B24DDAA52CEABD0E0EDF1A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B64142844EAE36F96EEC8005923F43D;
+			remoteInfo = CCBRKMagnifierView;
+		};
+		F261ED87437C4459B33717F4EB7B75C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B483ADC692492C447700169224CEA3F8;
+			remoteInfo = CCBRKCoverController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01A7B0AE1E9D09FF2EDF6A511AB61964 /* Pods-CCTextBookReadKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CCTextBookReadKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		01E5FF64EBBAA1C1264FD8CF939F7F8B /* CCProgressHUDKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCProgressHUDKit-umbrella.h"; sourceTree = "<group>"; };
+		023461B2354079084E7AA158209FE146 /* ResourceBundle-CCBRKMagnifierView-CCBRKMagnifierView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CCBRKMagnifierView-CCBRKMagnifierView-Info.plist"; sourceTree = "<group>"; };
+		0354431017D5D464565BEB521D3E2CB9 /* DZMRMSettingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMRMSettingView.swift; sourceTree = "<group>"; };
+		03F94CAA0591A28E34BDA122E77E40DE /* Pods_CCTextBookReadKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CCTextBookReadKit_Tests.framework; path = "Pods-CCTextBookReadKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		072E87E485D015E017F48F3E667373F3 /* DZMRMFontTypeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMRMFontTypeView.swift; sourceTree = "<group>"; };
+		07BA1A6FC2DF2180CCB4E1BBBC569FA0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0DDBB672A262F797F0AC668E685C2FCB /* CCBRKCoverController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCBRKCoverController.m; path = CCBRKCoverController/Classes/CCBRKCoverController.m; sourceTree = "<group>"; };
+		0EAE81DD6A1595E9133929C1474EB4AB /* CCBRKMagnifierView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CCBRKMagnifierView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10C4F8322F889652C71D09073051276E /* DZMRMBottomView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMRMBottomView.swift; sourceTree = "<group>"; };
+		12D6DD6659243A23EF3BFDD5C47C4860 /* DZMReadConfigure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMReadConfigure.swift; sourceTree = "<group>"; };
+		13168483016C73A275548FD34D8D7E31 /* CCTextBookReadKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CCTextBookReadKit.framework; path = CCTextBookReadKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1322BF875568FDA492536B04B7ADA0A6 /* DZMReadController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMReadController.swift; sourceTree = "<group>"; };
+		1557F4973A72F04218FC335D45F6F2A0 /* DZMReadLongPressCursorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMReadLongPressCursorView.swift; sourceTree = "<group>"; };
+		15F5FF19BC29A31069DB1DB3159E7876 /* CCProgressHUDKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCProgressHUDKit-prefix.pch"; sourceTree = "<group>"; };
+		17D720CAE8145D280CE739576A0C6B6B /* CCBRKSegmentedControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCBRKSegmentedControl-umbrella.h"; sourceTree = "<group>"; };
+		1848D4DF7714ED036C47D902C5919D5B /* CCBRKValuePopUpView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCBRKValuePopUpView-prefix.pch"; sourceTree = "<group>"; };
+		18A5A4085E97D942CC2286DF9772411C /* CCBRKValuePopUpView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCBRKValuePopUpView.h; path = CCBRKValuePopUpView/Classes/CCBRKValuePopUpView.h; sourceTree = "<group>"; };
+		18B6B199B9115ED9E503F17848D5BBB4 /* CCBRKValuePopUpView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CCBRKValuePopUpView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D076673A0DDA3C0AD3EAF86417663E /* DZMPublic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMPublic.swift; sourceTree = "<group>"; };
+		1AEF8D9368E35ECC8023E277F38EBEBD /* DZMColorList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMColorList.swift; sourceTree = "<group>"; };
+		1B3C3DACD1053B306C8EF9CD109AD4AB /* CCBRKValuePopUpView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CCBRKValuePopUpView-dummy.m"; sourceTree = "<group>"; };
+		1BB8C04F6925F33BC7345082AA4E5C63 /* DZMRMBGColorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMRMBGColorView.swift; sourceTree = "<group>"; };
+		1C2CD6AC07204E9277BFDE65CE2E0FC1 /* DZMReadModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMReadModel.swift; sourceTree = "<group>"; };
+		1C4207DED5D18B0E4714754564CF8C3D /* DZMRMFontSizeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMRMFontSizeView.swift; sourceTree = "<group>"; };
+		1DB91DDE22F7E8AD9E2CF67F1C7B1519 /* FDFullscreenPopGesture-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FDFullscreenPopGesture-prefix.pch"; sourceTree = "<group>"; };
+		1F1F4DC35D5C14C665C3893412E6EB74 /* DZMSpaceList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMSpaceList.swift; sourceTree = "<group>"; };
+		1F813E2C128FCC19F1738D8A7023A4E8 /* error.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = error.png; path = CCProgressHUDKit/Classes/MBProgressHUD.bundle/error.png; sourceTree = "<group>"; };
+		20E54D185BE9F209769C9BEE2E632CC1 /* CCBRKCoverController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCBRKCoverController-prefix.pch"; sourceTree = "<group>"; };
+		2279A3A8E13D8416FA126D69DAA0025D /* magnifier_0.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = magnifier_0.png; path = CCBRKMagnifierView/Assets/magnifier_0.png; sourceTree = "<group>"; };
+		2342CD50EA29884A963D534709835F41 /* Pods-CCTextBookReadKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CCTextBookReadKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		25AAAB94C391C641C049CF04AF57040C /* CCBRKSegmentedControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CCBRKSegmentedControl-Info.plist"; sourceTree = "<group>"; };
+		279CC5D8E5B63487CE31457C88262BAF /* CCBRKSegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CCBRKSegmentedControl.framework; path = CCBRKSegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28246DA837E73CDDEB6CB96EA8BA0FE1 /* CCBRKValueTrackingSlider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCBRKValueTrackingSlider.m; path = CCBRKValuePopUpView/Classes/CCBRKValueTrackingSlider.m; sourceTree = "<group>"; };
+		2F2295F1338B800335F239A55BE73A01 /* DZMUserDefaults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMUserDefaults.swift; sourceTree = "<group>"; };
+		2F85FC405783C0E950C707676C652A9C /* DZMReadController+Operation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "DZMReadController+Operation.swift"; sourceTree = "<group>"; };
+		307A34120E6154D1785F01EF12369AAF /* Pods-CCTextBookReadKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CCTextBookReadKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		31081DF57B0596EC491786595728ED5E /* DZMReadViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMReadViewController.swift; sourceTree = "<group>"; };
+		346125AE2262B262B77BE54A9A73E73C /* DZMReadHomeViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMReadHomeViewCell.swift; sourceTree = "<group>"; };
+		34DBE837B7B8724911ECE62335D6641A /* bar_2.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = bar_2.png; sourceTree = "<group>"; };
+		36AF1E91CA6C09575D7DCC47FAEE8C59 /* CCBRKCoverController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCBRKCoverController.h; path = CCBRKCoverController/Classes/CCBRKCoverController.h; sourceTree = "<group>"; };
+		39D6ED1B223001B25612417F4DB39522 /* CCBRKCoverController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCBRKCoverController.xcconfig; sourceTree = "<group>"; };
+		3C8E38D2DEE0124F336C13C5432058A1 /* CCBRKCoverController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CCBRKCoverController-Info.plist"; sourceTree = "<group>"; };
+		43FD7A066402F61820527C40BA6E4CC2 /* DZMEnumList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMEnumList.swift; sourceTree = "<group>"; };
+		446FEE395B8FC95FF6EB0CAFF0886DB0 /* Pods-CCTextBookReadKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCTextBookReadKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		44C039918B2851230A7F010EBD35D32A /* slider.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = slider.png; sourceTree = "<group>"; };
+		456C61A05F815EDD7BF9DE74130C7058 /* ResourceBundle-CCProgressHUDKit-CCProgressHUDKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CCProgressHUDKit-CCProgressHUDKit-Info.plist"; sourceTree = "<group>"; };
+		4884BE30425CFF7DD433DFCB02BB1BB6 /* CCTextBookReadKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CCTextBookReadKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		48FC6A25D35653BDCA7450039631E350 /* Pods-CCTextBookReadKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCTextBookReadKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		491035071647F98F37503011198348C1 /* CCProgressHUDKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CCProgressHUDKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C493325D96C08D2FB12811CFE1ED3A7 /* DZMViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMViewController.swift; sourceTree = "<group>"; };
+		4CAC164B1F7332CFC96B79678D9EC6AC /* CCBRKMagnifierView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CCBRKMagnifierView.modulemap; sourceTree = "<group>"; };
+		4D116DBB820C52A57DE2F1277DB15414 /* FDFullscreenPopGesture.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FDFullscreenPopGesture.xcconfig; sourceTree = "<group>"; };
+		5095482E30BD6CA17CC2A81AD7D4F210 /* spacing_0.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = spacing_0.png; sourceTree = "<group>"; };
+		509DCC3EE9363C8C42AE0FC376E5383F /* DZMReadHomeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMReadHomeView.swift; sourceTree = "<group>"; };
+		5128B769FD9EC0DCEA1780C37324D8E1 /* CCBRKMagnifierView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CCBRKMagnifierView.bundle; path = "CCBRKMagnifierView-CCBRKMagnifierView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5390CFA5D44766B0045B27294723075E /* String+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		56709448DF715C0122A8BC9818DAE7E9 /* DZMReadTextFastParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMReadTextFastParser.swift; sourceTree = "<group>"; };
+		57D97C9CECD9EA328B21D796C3A22D3D /* Pods-CCTextBookReadKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CCTextBookReadKit_Tests.modulemap"; sourceTree = "<group>"; };
+		5A72A2110BA56084314CCE1AB17D76EC /* FDFullscreenPopGesture-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FDFullscreenPopGesture-umbrella.h"; sourceTree = "<group>"; };
+		5A9119817EFB7159730C9B4F590ED5EB /* DZMRMFuncView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMRMFuncView.swift; sourceTree = "<group>"; };
+		5B92A0A19D0608C2C53BA0F587AF6990 /* DZMBatteryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMBatteryView.swift; sourceTree = "<group>"; };
+		5C6B3953A0AA530451F5A2D6B4920B04 /* CCTextBookReadKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CCTextBookReadKit.bundle; path = "CCTextBookReadKit-CCTextBookReadKit.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D3A1464CB4307F7081D55C981E4993C /* Pods-CCTextBookReadKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CCTextBookReadKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5FD9B2B436AF45EDE2D949990930CB95 /* DZMReadMarkView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMReadMarkView.swift; sourceTree = "<group>"; };
+		62DD6E7909938D4CE58BAD6DAD797A5F /* CCBRKValuePopUpView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CCBRKValuePopUpView-Info.plist"; sourceTree = "<group>"; };
+		64EA7A8203EFD90B25580B6D8496DAC7 /* CCBRKMagnifierView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCBRKMagnifierView.h; path = CCBRKMagnifierView/Classes/CCBRKMagnifierView.h; sourceTree = "<group>"; };
+		65AFDD15F5B4EF971D82C179AD1551CF /* CCTextBookReadKit.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = CCTextBookReadKit.bundle; path = CCTextBookReadKit/Classes/CCTextBookReadKit.bundle; sourceTree = "<group>"; };
+		6776F7AEFE1D9E38FB0ABC206DDD9C5B /* CCBRKMagnifierView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCBRKMagnifierView.xcconfig; sourceTree = "<group>"; };
+		68637971C8D46A8877053DF19BD96FCF /* DZMTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMTableView.swift; sourceTree = "<group>"; };
+		6E564ABD2708A024F7F843D30355A203 /* magnifier_1.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = magnifier_1.png; path = CCBRKMagnifierView/Assets/magnifier_1.png; sourceTree = "<group>"; };
+		745CBDCD04553DB4AEF4F58EB50EF655 /* right@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "right@3x.png"; path = "CCProgressHUDKit/Classes/MBProgressHUD.bundle/right@3x.png"; sourceTree = "<group>"; };
+		7490C637B10F7493CA74172781E64A6D /* CCTextBookReadKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CCTextBookReadKit.modulemap; sourceTree = "<group>"; };
+		750515E9FA304991F9D74A22DCD208DB /* CCTextBookReadKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCTextBookReadKit-prefix.pch"; sourceTree = "<group>"; };
+		756E7C15FB5C53E0A7815F8823A384A0 /* CCBRKSegmentedControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCBRKSegmentedControl-prefix.pch"; sourceTree = "<group>"; };
+		77E7E28D3F8F053D9D2EEEF46C1BF93B /* Pods-CCTextBookReadKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCTextBookReadKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A3CDE995D252770DA889BC8CFAD41F9 /* error@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "error@3x.png"; path = "CCProgressHUDKit/Classes/MBProgressHUD.bundle/error@3x.png"; sourceTree = "<group>"; };
+		7B6FD47FED4E7164A7ECC5B4E4A9E76A /* DZMReadCatalogView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMReadCatalogView.swift; sourceTree = "<group>"; };
+		7E7BD32DCD3066C4DE0C787997F05495 /* CCProgressHUDKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCProgressHUDKit.xcconfig; sourceTree = "<group>"; };
+		7EC500CE7C4C188DCF0B2D42ED806EF4 /* CCBRKCoverController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCBRKCoverController-umbrella.h"; sourceTree = "<group>"; };
+		7EDE4A2C620092CD38337F030C3560D8 /* Pods_CCTextBookReadKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CCTextBookReadKit_Example.framework; path = "Pods-CCTextBookReadKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F008250708CD7425981A82480C7AD8E /* CCTextBookReadKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CCTextBookReadKit-Info.plist"; sourceTree = "<group>"; };
+		84C89DDBE75607DC8E1A69CA14F5B678 /* DZMKeyedArchiver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMKeyedArchiver.swift; sourceTree = "<group>"; };
+		84D4A10794B646D87DA50EE121003F90 /* light_0.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = light_0.png; sourceTree = "<group>"; };
+		84E551B2B55AE64B15E47D5961938E39 /* DZMRMProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMRMProgressView.swift; sourceTree = "<group>"; };
+		85D03BEC2CA9B2DB28398618379E7744 /* FDFullscreenPopGesture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FDFullscreenPopGesture.framework; path = FDFullscreenPopGesture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85F75C4F7C1498F14CC9D44680CB360A /* DZMReadMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMReadMenu.swift; sourceTree = "<group>"; };
+		863241E51D911115F4027127BDE0FA88 /* mark.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = mark.png; sourceTree = "<group>"; };
+		866358A49D9CB85F3C3823279C749EF5 /* DZMReadTextParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMReadTextParser.swift; sourceTree = "<group>"; };
+		893C0D42873B464EFCDE2C6D0D1DA8D1 /* DZMReadViewStatusTopView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMReadViewStatusTopView.swift; sourceTree = "<group>"; };
+		8A5C7357C5DE723524C32FEC938A84CF /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+FDFullscreenPopGesture.m"; path = "FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		8C0B6B47F5E5B0B2C6C7A99D9F161D78 /* MBProgressHUD+CCUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MBProgressHUD+CCUD.h"; path = "CCProgressHUDKit/Classes/MBProgressHUD+CCUD.h"; sourceTree = "<group>"; };
+		8D84238F6E0DB7F4BA65DF85DCDC6DA8 /* DZMReadParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMReadParser.swift; sourceTree = "<group>"; };
+		8EB7C030A2D5ADB4EBD26877CD666A85 /* MBProgressHUD+CCUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MBProgressHUD+CCUD.m"; path = "CCProgressHUDKit/Classes/MBProgressHUD+CCUD.m"; sourceTree = "<group>"; };
+		8F499537640B3CA22B9D76084DC24893 /* CCProgressHUDKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CCProgressHUDKit-Info.plist"; sourceTree = "<group>"; };
+		90163470F0294A2EE560D54F82212452 /* CCBRKCoverController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CCBRKCoverController.framework; path = CCBRKCoverController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90FAA2A1860B60F21A75906EE3D9CF6C /* UIPageViewController+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIPageViewController+Extension.swift"; sourceTree = "<group>"; };
+		92D0A7B34F7BED1D83C8B311B86E019C /* CCTextBookReadKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CCTextBookReadKit-dummy.m"; sourceTree = "<group>"; };
+		9372A9AF60FEFE67175B380CBBE139FD /* read_bg_0.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = read_bg_0.png; sourceTree = "<group>"; };
+		9729F68622ADA10CAD668ECA78A9E2AB /* CCTextBookReadKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCTextBookReadKit.xcconfig; sourceTree = "<group>"; };
+		97825D9C6E3FAB0E16EABEFE8EB1773B /* CCProgressHUDKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CCProgressHUDKit-dummy.m"; sourceTree = "<group>"; };
+		98C7C504398E887B38C17AB5F5FD862E /* page.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = page.png; sourceTree = "<group>"; };
+		99FD94A548EE7884A40B703359311221 /* CCBRKSegmentedControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCBRKSegmentedControl.h; path = CCBRKSegmentedControl/Classes/CCBRKSegmentedControl.h; sourceTree = "<group>"; };
+		9AE417F114D9AE4D81096A19456071FA /* back.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		9BBBBF7F7EC019776B3097D2D99D56D9 /* Pods-CCTextBookReadKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCTextBookReadKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9C77B7208A6C7900FA3590BE88A7FE90 /* DZMReadMarkModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMReadMarkModel.swift; sourceTree = "<group>"; };
+		9CD1D59AD00102192072C669E0DD1179 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = CCProgressHUDKit/Classes/MBProgressHUD.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A221DCDDFE24BB8E28181BEADFC5E355 /* error@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "error@2x.png"; path = "CCProgressHUDKit/Classes/MBProgressHUD.bundle/error@2x.png"; sourceTree = "<group>"; };
+		A2273056F981B1A122E0D6F45A827266 /* DZMReadRecordModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMReadRecordModel.swift; sourceTree = "<group>"; };
+		A322E7A9D8B699CA6425DF189A130109 /* DZMReadViewScrollController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMReadViewScrollController.swift; sourceTree = "<group>"; };
+		A3CD382F74D905FF9BB9FE6CB0CAC743 /* CCProgressHUDKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CCProgressHUDKit.modulemap; sourceTree = "<group>"; };
+		A409F599195747A4462A25CB80B97C0F /* CCBRKSegmentedControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCBRKSegmentedControl.xcconfig; sourceTree = "<group>"; };
+		A478694F0DB850DAF4462B3DA5B92FD5 /* Pods-CCTextBookReadKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CCTextBookReadKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A48D07A2B4DB70AF7CD05AE46F8E229A /* CCBRKValueTrackingSlider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCBRKValueTrackingSlider.h; path = CCBRKValuePopUpView/Classes/CCBRKValueTrackingSlider.h; sourceTree = "<group>"; };
+		A6AE07E734869271D21A778DA99D040E /* FDFullscreenPopGesture-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FDFullscreenPopGesture-Info.plist"; sourceTree = "<group>"; };
+		A7E81B2C6F9A0B75D7118109F9CA434A /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = CCProgressHUDKit/Classes/MBProgressHUD.m; sourceTree = "<group>"; };
+		A9E2922D3B82CA6474FB4645CE2AA082 /* CCBRKCoverController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CCBRKCoverController-dummy.m"; sourceTree = "<group>"; };
+		ABDA4F3269A42FB4EAF6B45A5540CC5E /* CCBRKMagnifierView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CCBRKMagnifierView.framework; path = CCBRKMagnifierView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE90F7A469119A163BD06BFF593B3883 /* CCBRKValuePopUpView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CCBRKValuePopUpView.framework; path = CCBRKValuePopUpView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA4FDEE69F7429418DA8D28B6CBC6E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B016C759DADD75A4B3F2D93578FFBB70 /* FDFullscreenPopGesture-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FDFullscreenPopGesture-dummy.m"; sourceTree = "<group>"; };
+		B2D89ED0510788B710EA7C66BD53699E /* CCTextBookReadKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCTextBookReadKit-umbrella.h"; sourceTree = "<group>"; };
+		B4D6C077B0BB09093B589A4E8A99B35C /* CCBRKValuePopUpView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCBRKValuePopUpView-umbrella.h"; sourceTree = "<group>"; };
+		B5ABD9FE7B139183F3CEB97669FCFCEA /* CCBRKSegmentedControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CCBRKSegmentedControl-dummy.m"; sourceTree = "<group>"; };
+		B964B3DEF5B93098357A76F6A313A734 /* DZMRMBaseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMRMBaseView.swift; sourceTree = "<group>"; };
+		B9DF1422E4A5937F14B14B111E1D83DF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B9EFADA0AB0A30486E32F012853C2C67 /* CCBRKMagnifierView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CCBRKMagnifierView-Info.plist"; sourceTree = "<group>"; };
+		BB33F00F613DB3113B8E07CDE90B668E /* spacing_1.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = spacing_1.png; sourceTree = "<group>"; };
+		BDBEE170224B02567687E867A6DDC020 /* DZMReadLeftView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMReadLeftView.swift; sourceTree = "<group>"; };
+		C1AFE0139362369DDAB514A04670100A /* DZMRMLightView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMRMLightView.swift; sourceTree = "<group>"; };
+		C2AE56E19A30EC48113E28D9433DF9E9 /* FDFullscreenPopGesture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FDFullscreenPopGesture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3C1ACC3B39918573ADF4F4F9F895614 /* DZMReadLongPressViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMReadLongPressViewController.swift; sourceTree = "<group>"; };
+		C3DCE1F9B81BB30C42E3A3F70F2B2FBD /* DZMReadMarkCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMReadMarkCell.swift; sourceTree = "<group>"; };
+		C4EB6EFF5FD76356BBC9EEE9B82AA76D /* read_bg_0_icon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = read_bg_0_icon.png; sourceTree = "<group>"; };
+		C59DDE598D8FE487B16998A82DC2B8CD /* CCBRKMagnifierView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CCBRKMagnifierView-dummy.m"; sourceTree = "<group>"; };
+		C5BC28A5304723BD5FD3934FD58077AB /* bar_0.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = bar_0.png; sourceTree = "<group>"; };
+		C8504A2144C6BC54A9499E7C90A3D767 /* ResourceBundle-CCTextBookReadKit-CCTextBookReadKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CCTextBookReadKit-CCTextBookReadKit-Info.plist"; sourceTree = "<group>"; };
+		CBE78B65C9D024ADB7BF30CE2C21086A /* DZMReadViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMReadViewCell.swift; sourceTree = "<group>"; };
+		CC4312E197CF67F06876233B8E2AA841 /* DZMReadController+EffectType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "DZMReadController+EffectType.swift"; sourceTree = "<group>"; };
+		CD969156DAC0EBF9C4020EEBE4C67378 /* DZMRMEffectTypeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMRMEffectTypeView.swift; sourceTree = "<group>"; };
+		CE45E03CB7D22FC6B8633EA9CD1C3041 /* CCBRKSegmentedControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCBRKSegmentedControl.m; path = CCBRKSegmentedControl/Classes/CCBRKSegmentedControl.m; sourceTree = "<group>"; };
+		CF6206D270E38867493C93005C437F67 /* CCProgressHUDKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CCProgressHUDKit.bundle; path = "CCProgressHUDKit-CCProgressHUDKit.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1530E71BBF0E3114BCD4265E4663B49 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+FDFullscreenPopGesture.h"; path = "FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		D2A6CFA0FF6DE4A56C4F65DB975E53E2 /* CCBRKCoverController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CCBRKCoverController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D43596A5C80C559635CC0E90CD30AB22 /* right@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "right@2x.png"; path = "CCProgressHUDKit/Classes/MBProgressHUD.bundle/right@2x.png"; sourceTree = "<group>"; };
+		D46F93E5B92D9F1939766E066C73911F /* CCBRKValuePopUpView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CCBRKValuePopUpView.modulemap; sourceTree = "<group>"; };
+		D4D7C1909BA6E31A7CB2C595A9ABB7B2 /* Pods-CCTextBookReadKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCTextBookReadKit_Example-Info.plist"; sourceTree = "<group>"; };
+		D529301C1D16126B36EACA4020E2DAC8 /* FDFullscreenPopGesture.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FDFullscreenPopGesture.modulemap; sourceTree = "<group>"; };
+		D59795B9BADECFA47BB0D9335AB34971 /* CCBRKMagnifierView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCBRKMagnifierView-umbrella.h"; sourceTree = "<group>"; };
+		D69AFF9FDE0A575AF4E84ACF70BEB20A /* DZMReadContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMReadContentView.swift; sourceTree = "<group>"; };
+		D7FFDC9A3031C4EEEEFCE1A89299831B /* CCBRKSegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CCBRKSegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9C1F184C503C709DB59D3F3E66C6D85 /* CCBRKValuePopUpView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCBRKValuePopUpView.xcconfig; sourceTree = "<group>"; };
+		DA1FE9AA91A41A402BCE9A9E18172BA3 /* Pods-CCTextBookReadKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCTextBookReadKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		DD07AEF4EC4FFA0613D1F9FBA82AFF57 /* battery_black.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = battery_black.png; sourceTree = "<group>"; };
+		DDBF7708ECC410F4BF58F9DDDA54A1F7 /* Pods-CCTextBookReadKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CCTextBookReadKit_Example.modulemap"; sourceTree = "<group>"; };
+		DE4DA996720A4E84B1FAD2B89C990ABC /* DZMReadChapterModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMReadChapterModel.swift; sourceTree = "<group>"; };
+		DE7E3006787079795543E7B71FA85091 /* Pods-CCTextBookReadKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CCTextBookReadKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		DF7C9E166A8AC5FB10BBE65F3C948E8F /* CCBRKValuePopUpView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCBRKValuePopUpView.m; path = CCBRKValuePopUpView/Classes/CCBRKValuePopUpView.m; sourceTree = "<group>"; };
+		E074D43633E7D9625159DE59AB76AC17 /* CCBRKSegmentedControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CCBRKSegmentedControl.modulemap; sourceTree = "<group>"; };
+		E1DCE25D97A5188A0279C38C9F77D926 /* CCProgressHUDKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CCProgressHUDKit.framework; path = CCProgressHUDKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2C31BB151CC86A3A6AD8651CDBE5487 /* DZMReadModel+Mark.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "DZMReadModel+Mark.swift"; sourceTree = "<group>"; };
+		E30B01C191E81F3A6992DF15AD8BB391 /* Pods-CCTextBookReadKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CCTextBookReadKit_Example-dummy.m"; sourceTree = "<group>"; };
+		E43D7DC1DF977F5E676724927C83F9AA /* CCBRKCoverController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CCBRKCoverController.modulemap; sourceTree = "<group>"; };
+		E739BE61043479483FA4C51C771BA299 /* DZMCoreText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMCoreText.swift; sourceTree = "<group>"; };
+		E8CB8C4CACA4EAE0A2FD408831462B49 /* bar_1.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = bar_1.png; sourceTree = "<group>"; };
+		E969AB7B3071259E446D9FB7A2C1E660 /* light_1.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = light_1.png; sourceTree = "<group>"; };
+		E9812C00FE4A51E50BC662259D654913 /* DZMReadViewBGController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMReadViewBGController.swift; sourceTree = "<group>"; };
+		EADABDE8A0D499A686E9BBE55EFC812E /* DZMFontList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMFontList.swift; sourceTree = "<group>"; };
+		ED5E55D202C2423916FA1812C75D80DE /* Pods-CCTextBookReadKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCTextBookReadKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F0F6E2BC99F64F801B01C2C2E0814CD0 /* CCBRKMagnifierView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCBRKMagnifierView.m; path = CCBRKMagnifierView/Classes/CCBRKMagnifierView.m; sourceTree = "<group>"; };
+		F2B0DCB577861394EBCA5CF88CEE701A /* DZMRMTopView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMRMTopView.swift; sourceTree = "<group>"; };
+		F3EB84183EBCFE0131F040D85EF8A9B8 /* DZMReadLongPressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMReadLongPressView.swift; sourceTree = "<group>"; };
+		F55342C80DC383BE85D8D2A941509083 /* CCBRKMagnifierView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCBRKMagnifierView-prefix.pch"; sourceTree = "<group>"; };
+		F757DB80566B044A03159F2CD1F43636 /* right.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = right.png; path = CCProgressHUDKit/Classes/MBProgressHUD.bundle/right.png; sourceTree = "<group>"; };
+		F85E767B9B4442588F984F8C3E7C56E7 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MBProgressHUD.bundle; path = CCProgressHUDKit/Classes/MBProgressHUD.bundle; sourceTree = "<group>"; };
+		F88563CC90F4943BF8416940AFE1C070 /* DZMReadView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMReadView.swift; sourceTree = "<group>"; };
+		F9067E4C6BAA5EC71A1B3187F9C64B9B /* DZMRMSpacingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMRMSpacingView.swift; sourceTree = "<group>"; };
+		FAC085D0F564AEDAB89D45AD0DD9F9CD /* Pods-CCTextBookReadKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCTextBookReadKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FC5647DB9C4C1A771205764E25D0BCC9 /* DZMReadViewStatusBottomView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMReadViewStatusBottomView.swift; sourceTree = "<group>"; };
+		FC5C665853458BCF0F628189D2D1F4F9 /* DZMReadChapterListModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMReadChapterListModel.swift; sourceTree = "<group>"; };
+		FD92CC61A470206487ECAE0A66FC52E5 /* DZMReadPageModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMReadPageModel.swift; sourceTree = "<group>"; };
+		FFCC888B606E05A9BE11C44E459C4F9D /* DZMReadCatalogCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DZMReadCatalogCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1076DDB5B3283A2836BFABBD0C2CB015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B17D83074BFC502CE967CD83E1EE139 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180143BC019D7D85F8663073B22FFEB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED87906E5E69B1D29F3EA1D1C9C2FE29 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3087D60ACD9F976982E1ADB246C58D75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09049999B969BC2BE420C9D1D4EC4858 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		392121A1F1FD9425F7A8DD42572E7714 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB10E9C6D0B9883671D42649D57E7E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C27683952E3A191B6F2556AD06BAA66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62E2E8194B4961441B6EA812D2A26D25 /* CCBRKCoverController.framework in Frameworks */,
+				46D173A55321B11DCE0F2B83161CC4DE /* CCBRKMagnifierView.framework in Frameworks */,
+				A6C19CC4E82C94F5BA87532C0434346E /* CCBRKSegmentedControl.framework in Frameworks */,
+				0A591102B03CDE8DCF33F02E5A7D083C /* CCBRKValuePopUpView.framework in Frameworks */,
+				B25B971FFEB631293DEC4D4A507899CC /* CCProgressHUDKit.framework in Frameworks */,
+				8B6F79DEB8BAC20E2D465ED73BC8C482 /* FDFullscreenPopGesture.framework in Frameworks */,
+				8C342FC6430CC2830F9EE9F31F7274C3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76D72BCAE10BF412D8526939B4B3DC7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E36AC4F4292A3FE8C73433BF50F5FC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BEF9889FEA90BA2A01A5EB11EAF6662 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8234A28F5E7C66B7CF9109928DC4DE43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31A38A08EFC99FC12BB8414C96E5613A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B164D0922ADE792EB7CFBF33C56C70C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B75CE7DE90379011AF1D83B62ED0F6D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1279F566412757BBC2971150F668E05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3D8AA30DEB8FED815EEFC0C1A4DAD7C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA6DCBB2D07087953D1D6FFDEC0D551C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85AFCBB9FA0DE0371E003B62FF40888A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01913C568F192528570D1A590583652F /* custom */ = {
+			isa = PBXGroup;
+			children = (
+				E739BE61043479483FA4C51C771BA299 /* DZMCoreText.swift */,
+				84C89DDBE75607DC8E1A69CA14F5B678 /* DZMKeyedArchiver.swift */,
+				2F2295F1338B800335F239A55BE73A01 /* DZMUserDefaults.swift */,
+			);
+			name = custom;
+			path = custom;
+			sourceTree = "<group>";
+		};
+		0EE191ACA631251472A5FB97F546F046 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				FC5C665853458BCF0F628189D2D1F4F9 /* DZMReadChapterListModel.swift */,
+				DE4DA996720A4E84B1FAD2B89C990ABC /* DZMReadChapterModel.swift */,
+				9C77B7208A6C7900FA3590BE88A7FE90 /* DZMReadMarkModel.swift */,
+				1C2CD6AC07204E9277BFDE65CE2E0FC1 /* DZMReadModel.swift */,
+				E2C31BB151CC86A3A6AD8651CDBE5487 /* DZMReadModel+Mark.swift */,
+				FD92CC61A470206487ECAE0A66FC52E5 /* DZMReadPageModel.swift */,
+				A2273056F981B1A122E0D6F45A827266 /* DZMReadRecordModel.swift */,
+			);
+			name = model;
+			path = CCTextBookReadKit/Classes/model;
+			sourceTree = "<group>";
+		};
+		149E4042475D76E44DA32B7E30305D47 /* DZMRMSettingView */ = {
+			isa = PBXGroup;
+			children = (
+				1BB8C04F6925F33BC7345082AA4E5C63 /* DZMRMBGColorView.swift */,
+				CD969156DAC0EBF9C4020EEBE4C67378 /* DZMRMEffectTypeView.swift */,
+				1C4207DED5D18B0E4714754564CF8C3D /* DZMRMFontSizeView.swift */,
+				072E87E485D015E017F48F3E667373F3 /* DZMRMFontTypeView.swift */,
+				C1AFE0139362369DDAB514A04670100A /* DZMRMLightView.swift */,
+				0354431017D5D464565BEB521D3E2CB9 /* DZMRMSettingView.swift */,
+				F9067E4C6BAA5EC71A1B3187F9C64B9B /* DZMRMSpacingView.swift */,
+			);
+			name = DZMRMSettingView;
+			path = DZMRMSettingView;
+			sourceTree = "<group>";
+		};
+		1D0FC294060F46B2151B042EBCB67AE1 /* FDFullscreenPopGesture */ = {
+			isa = PBXGroup;
+			children = (
+				D1530E71BBF0E3114BCD4265E4663B49 /* UINavigationController+FDFullscreenPopGesture.h */,
+				8A5C7357C5DE723524C32FEC938A84CF /* UINavigationController+FDFullscreenPopGesture.m */,
+				F1615AED3DF958BC8398E0D50BFB5938 /* Support Files */,
+			);
+			name = FDFullscreenPopGesture;
+			path = FDFullscreenPopGesture;
+			sourceTree = "<group>";
+		};
+		1D28E7A4D131D39B2CD778BC88075ADF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E074D43633E7D9625159DE59AB76AC17 /* CCBRKSegmentedControl.modulemap */,
+				A409F599195747A4462A25CB80B97C0F /* CCBRKSegmentedControl.xcconfig */,
+				B5ABD9FE7B139183F3CEB97669FCFCEA /* CCBRKSegmentedControl-dummy.m */,
+				25AAAB94C391C641C049CF04AF57040C /* CCBRKSegmentedControl-Info.plist */,
+				756E7C15FB5C53E0A7815F8823A384A0 /* CCBRKSegmentedControl-prefix.pch */,
+				17D720CAE8145D280CE739576A0C6B6B /* CCBRKSegmentedControl-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CCBRKSegmentedControl";
+			sourceTree = "<group>";
+		};
+		269212C85A58669CD047396E63009C23 /* CCTextBookReadKit */ = {
+			isa = PBXGroup;
+			children = (
+				BE8EEACBE381D1638EC31260E56B8079 /* CCTextBookReadKit.bundle */,
+				50FB186EC935F7E7FD126F4EB3334046 /* controller */,
+				53E0407C3168D748597E8D39BF0A32AF /* menuUI */,
+				0EE191ACA631251472A5FB97F546F046 /* model */,
+				577061C799B85525B863B72E5FCA7B4B /* other */,
+				661DFDBF34A98FF5551E428F16E504B3 /* Pod */,
+				34561E3243CEAF11AAAA4C3F9E1F8403 /* ReadParser */,
+				6A4AB90BE32A106B0D0DF570008B2CEF /* ReadView */,
+				DD2FE931C6377E456E2A089EAE22E25A /* Resources */,
+				C419DA2718692C69484645AC8C723AC1 /* Support Files */,
+				E4A782EF390FE0FA24C23515B641B958 /* view */,
+			);
+			name = CCTextBookReadKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3311DCF9F13F7F7E06ECEBF865C680F8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3CD382F74D905FF9BB9FE6CB0CAC743 /* CCProgressHUDKit.modulemap */,
+				7E7BD32DCD3066C4DE0C787997F05495 /* CCProgressHUDKit.xcconfig */,
+				97825D9C6E3FAB0E16EABEFE8EB1773B /* CCProgressHUDKit-dummy.m */,
+				8F499537640B3CA22B9D76084DC24893 /* CCProgressHUDKit-Info.plist */,
+				15F5FF19BC29A31069DB1DB3159E7876 /* CCProgressHUDKit-prefix.pch */,
+				01E5FF64EBBAA1C1264FD8CF939F7F8B /* CCProgressHUDKit-umbrella.h */,
+				456C61A05F815EDD7BF9DE74130C7058 /* ResourceBundle-CCProgressHUDKit-CCProgressHUDKit-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CCProgressHUDKit";
+			sourceTree = "<group>";
+		};
+		34561E3243CEAF11AAAA4C3F9E1F8403 /* ReadParser */ = {
+			isa = PBXGroup;
+			children = (
+				8D84238F6E0DB7F4BA65DF85DCDC6DA8 /* DZMReadParser.swift */,
+				56709448DF715C0122A8BC9818DAE7E9 /* DZMReadTextFastParser.swift */,
+				866358A49D9CB85F3C3823279C749EF5 /* DZMReadTextParser.swift */,
+			);
+			name = ReadParser;
+			path = CCTextBookReadKit/Classes/ReadParser;
+			sourceTree = "<group>";
+		};
+		34727F7DF3F89A1E4450DF3876D5587E /* Pods-CCTextBookReadKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DDBF7708ECC410F4BF58F9DDDA54A1F7 /* Pods-CCTextBookReadKit_Example.modulemap */,
+				307A34120E6154D1785F01EF12369AAF /* Pods-CCTextBookReadKit_Example-acknowledgements.markdown */,
+				FAC085D0F564AEDAB89D45AD0DD9F9CD /* Pods-CCTextBookReadKit_Example-acknowledgements.plist */,
+				E30B01C191E81F3A6992DF15AD8BB391 /* Pods-CCTextBookReadKit_Example-dummy.m */,
+				2342CD50EA29884A963D534709835F41 /* Pods-CCTextBookReadKit_Example-frameworks.sh */,
+				D4D7C1909BA6E31A7CB2C595A9ABB7B2 /* Pods-CCTextBookReadKit_Example-Info.plist */,
+				DE7E3006787079795543E7B71FA85091 /* Pods-CCTextBookReadKit_Example-umbrella.h */,
+				ED5E55D202C2423916FA1812C75D80DE /* Pods-CCTextBookReadKit_Example.debug.xcconfig */,
+				446FEE395B8FC95FF6EB0CAFF0886DB0 /* Pods-CCTextBookReadKit_Example.release.xcconfig */,
+			);
+			name = "Pods-CCTextBookReadKit_Example";
+			path = "Target Support Files/Pods-CCTextBookReadKit_Example";
+			sourceTree = "<group>";
+		};
+		3F1E5C540B8D0D927D9F0B6C65868DB4 /* DZMRMBottomView */ = {
+			isa = PBXGroup;
+			children = (
+				10C4F8322F889652C71D09073051276E /* DZMRMBottomView.swift */,
+				5A9119817EFB7159730C9B4F590ED5EB /* DZMRMFuncView.swift */,
+				84E551B2B55AE64B15E47D5961938E39 /* DZMRMProgressView.swift */,
+			);
+			name = DZMRMBottomView;
+			path = DZMRMBottomView;
+			sourceTree = "<group>";
+		};
+		4464D0F8FCC059D1990B893AA63F232B /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				5390CFA5D44766B0045B27294723075E /* String+Extension.swift */,
+				90FAA2A1860B60F21A75906EE3D9CF6C /* UIPageViewController+Extension.swift */,
+			);
+			name = extension;
+			path = extension;
+			sourceTree = "<group>";
+		};
+		44AE617A65ED726384C2420EDC740BDB /* public */ = {
+			isa = PBXGroup;
+			children = (
+				1AEF8D9368E35ECC8023E277F38EBEBD /* DZMColorList.swift */,
+				43FD7A066402F61820527C40BA6E4CC2 /* DZMEnumList.swift */,
+				EADABDE8A0D499A686E9BBE55EFC812E /* DZMFontList.swift */,
+				18D076673A0DDA3C0AD3EAF86417663E /* DZMPublic.swift */,
+				1F1F4DC35D5C14C665C3893412E6EB74 /* DZMSpaceList.swift */,
+			);
+			name = public;
+			path = public;
+			sourceTree = "<group>";
+		};
+		4A91CAC0A6F369C36C35E9A77CD6BF30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2A6CFA0FF6DE4A56C4F65DB975E53E2 /* CCBRKCoverController.framework */,
+				0EAE81DD6A1595E9133929C1474EB4AB /* CCBRKMagnifierView.framework */,
+				D7FFDC9A3031C4EEEEFCE1A89299831B /* CCBRKSegmentedControl.framework */,
+				18B6B199B9115ED9E503F17848D5BBB4 /* CCBRKValuePopUpView.framework */,
+				491035071647F98F37503011198348C1 /* CCProgressHUDKit.framework */,
+				C2AE56E19A30EC48113E28D9433DF9E9 /* FDFullscreenPopGesture.framework */,
+				F9279163B9E5E473D9DE142F39B2F333 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50FB186EC935F7E7FD126F4EB3334046 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				12D6DD6659243A23EF3BFDD5C47C4860 /* DZMReadConfigure.swift */,
+				1322BF875568FDA492536B04B7ADA0A6 /* DZMReadController.swift */,
+				CC4312E197CF67F06876233B8E2AA841 /* DZMReadController+EffectType.swift */,
+				2F85FC405783C0E950C707676C652A9C /* DZMReadController+Operation.swift */,
+			);
+			name = controller;
+			path = CCTextBookReadKit/Classes/controller;
+			sourceTree = "<group>";
+		};
+		53AB9CE713DB00F8F732ACF1CC3721F7 /* thirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				5B92A0A19D0608C2C53BA0F587AF6990 /* DZMBatteryView.swift */,
+			);
+			name = thirdParty;
+			path = thirdParty;
+			sourceTree = "<group>";
+		};
+		53E0407C3168D748597E8D39BF0A32AF /* menuUI */ = {
+			isa = PBXGroup;
+			children = (
+				85F75C4F7C1498F14CC9D44680CB360A /* DZMReadMenu.swift */,
+				B964B3DEF5B93098357A76F6A313A734 /* DZMRMBaseView.swift */,
+				F2B0DCB577861394EBCA5CF88CEE701A /* DZMRMTopView.swift */,
+				3F1E5C540B8D0D927D9F0B6C65868DB4 /* DZMRMBottomView */,
+				149E4042475D76E44DA32B7E30305D47 /* DZMRMSettingView */,
+			);
+			name = menuUI;
+			path = CCTextBookReadKit/Classes/menuUI;
+			sourceTree = "<group>";
+		};
+		54690871056C93E0EB31717C3EE400F3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				34727F7DF3F89A1E4450DF3876D5587E /* Pods-CCTextBookReadKit_Example */,
+				B1F62DD5C2B13FC22F5AE6DC74ED8415 /* Pods-CCTextBookReadKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		577061C799B85525B863B72E5FCA7B4B /* other */ = {
+			isa = PBXGroup;
+			children = (
+				9BC9CFCCD5220477D580235EE46F9EE8 /* base */,
+				01913C568F192528570D1A590583652F /* custom */,
+				4464D0F8FCC059D1990B893AA63F232B /* extension */,
+				44AE617A65ED726384C2420EDC740BDB /* public */,
+				53AB9CE713DB00F8F732ACF1CC3721F7 /* thirdParty */,
+			);
+			name = other;
+			path = CCTextBookReadKit/Classes/other;
+			sourceTree = "<group>";
+		};
+		661DFDBF34A98FF5551E428F16E504B3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4884BE30425CFF7DD433DFCB02BB1BB6 /* CCTextBookReadKit.podspec */,
+				B9DF1422E4A5937F14B14B111E1D83DF /* LICENSE */,
+				07BA1A6FC2DF2180CCB4E1BBBC569FA0 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6A4AB90BE32A106B0D0DF570008B2CEF /* ReadView */ = {
+			isa = PBXGroup;
+			children = (
+				FBC2997C644A529E23825C76F1213CF3 /* controller */,
+				8E4C90E4E8C12B82779ED94D27ECA798 /* view */,
+			);
+			name = ReadView;
+			path = CCTextBookReadKit/Classes/ReadView;
+			sourceTree = "<group>";
+		};
+		72325D0F8498BB326F933AC2DF6C10A9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2279A3A8E13D8416FA126D69DAA0025D /* magnifier_0.png */,
+				6E564ABD2708A024F7F843D30355A203 /* magnifier_1.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8023FF31916A714475CC20B527A86D60 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E4EB83BB33E6EC5BA1DD8492050537F /* CCBRKCoverController */,
+				DB41373E1AEA898C42D57473E363903B /* CCBRKMagnifierView */,
+				DB96B819B8DACD715D1F6960B8CCD3EC /* CCBRKSegmentedControl */,
+				E8201CC26E826720BD32C7FCAE7AE67F /* CCBRKValuePopUpView */,
+				9160213F34AD7BFB9DB453669FE116E2 /* CCProgressHUDKit */,
+				1D0FC294060F46B2151B042EBCB67AE1 /* FDFullscreenPopGesture */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		85668A5A220BA216DC3D36D3231FA9C7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CAC164B1F7332CFC96B79678D9EC6AC /* CCBRKMagnifierView.modulemap */,
+				6776F7AEFE1D9E38FB0ABC206DDD9C5B /* CCBRKMagnifierView.xcconfig */,
+				C59DDE598D8FE487B16998A82DC2B8CD /* CCBRKMagnifierView-dummy.m */,
+				B9EFADA0AB0A30486E32F012853C2C67 /* CCBRKMagnifierView-Info.plist */,
+				F55342C80DC383BE85D8D2A941509083 /* CCBRKMagnifierView-prefix.pch */,
+				D59795B9BADECFA47BB0D9335AB34971 /* CCBRKMagnifierView-umbrella.h */,
+				023461B2354079084E7AA158209FE146 /* ResourceBundle-CCBRKMagnifierView-CCBRKMagnifierView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CCBRKMagnifierView";
+			sourceTree = "<group>";
+		};
+		8E4C90E4E8C12B82779ED94D27ECA798 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				509DCC3EE9363C8C42AE0FC376E5383F /* DZMReadHomeView.swift */,
+				346125AE2262B262B77BE54A9A73E73C /* DZMReadHomeViewCell.swift */,
+				1557F4973A72F04218FC335D45F6F2A0 /* DZMReadLongPressCursorView.swift */,
+				F3EB84183EBCFE0131F040D85EF8A9B8 /* DZMReadLongPressView.swift */,
+				F88563CC90F4943BF8416940AFE1C070 /* DZMReadView.swift */,
+				CBE78B65C9D024ADB7BF30CE2C21086A /* DZMReadViewCell.swift */,
+				FC5647DB9C4C1A771205764E25D0BCC9 /* DZMReadViewStatusBottomView.swift */,
+				893C0D42873B464EFCDE2C6D0D1DA8D1 /* DZMReadViewStatusTopView.swift */,
+			);
+			name = view;
+			path = view;
+			sourceTree = "<group>";
+		};
+		9160213F34AD7BFB9DB453669FE116E2 /* CCProgressHUDKit */ = {
+			isa = PBXGroup;
+			children = (
+				1F813E2C128FCC19F1738D8A7023A4E8 /* error.png */,
+				A221DCDDFE24BB8E28181BEADFC5E355 /* error@2x.png */,
+				7A3CDE995D252770DA889BC8CFAD41F9 /* error@3x.png */,
+				9CD1D59AD00102192072C669E0DD1179 /* MBProgressHUD.h */,
+				A7E81B2C6F9A0B75D7118109F9CA434A /* MBProgressHUD.m */,
+				8C0B6B47F5E5B0B2C6C7A99D9F161D78 /* MBProgressHUD+CCUD.h */,
+				8EB7C030A2D5ADB4EBD26877CD666A85 /* MBProgressHUD+CCUD.m */,
+				F757DB80566B044A03159F2CD1F43636 /* right.png */,
+				D43596A5C80C559635CC0E90CD30AB22 /* right@2x.png */,
+				745CBDCD04553DB4AEF4F58EB50EF655 /* right@3x.png */,
+				C3E8F2DFB5432263260E758E03F921B6 /* Resources */,
+				3311DCF9F13F7F7E06ECEBF865C680F8 /* Support Files */,
+			);
+			name = CCProgressHUDKit;
+			path = CCProgressHUDKit;
+			sourceTree = "<group>";
+		};
+		9BC9CFCCD5220477D580235EE46F9EE8 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				68637971C8D46A8877053DF19BD96FCF /* DZMTableView.swift */,
+				4C493325D96C08D2FB12811CFE1ED3A7 /* DZMViewController.swift */,
+			);
+			name = base;
+			path = base;
+			sourceTree = "<group>";
+		};
+		9E4EB83BB33E6EC5BA1DD8492050537F /* CCBRKCoverController */ = {
+			isa = PBXGroup;
+			children = (
+				36AF1E91CA6C09575D7DCC47FAEE8C59 /* CCBRKCoverController.h */,
+				0DDBB672A262F797F0AC668E685C2FCB /* CCBRKCoverController.m */,
+				D7CAC563AFD5CEB17ACE4C6E363495E4 /* Support Files */,
+			);
+			name = CCBRKCoverController;
+			path = CCBRKCoverController;
+			sourceTree = "<group>";
+		};
+		B1F62DD5C2B13FC22F5AE6DC74ED8415 /* Pods-CCTextBookReadKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				57D97C9CECD9EA328B21D796C3A22D3D /* Pods-CCTextBookReadKit_Tests.modulemap */,
+				5D3A1464CB4307F7081D55C981E4993C /* Pods-CCTextBookReadKit_Tests-acknowledgements.markdown */,
+				9BBBBF7F7EC019776B3097D2D99D56D9 /* Pods-CCTextBookReadKit_Tests-acknowledgements.plist */,
+				01A7B0AE1E9D09FF2EDF6A511AB61964 /* Pods-CCTextBookReadKit_Tests-dummy.m */,
+				DA1FE9AA91A41A402BCE9A9E18172BA3 /* Pods-CCTextBookReadKit_Tests-Info.plist */,
+				A478694F0DB850DAF4462B3DA5B92FD5 /* Pods-CCTextBookReadKit_Tests-umbrella.h */,
+				77E7E28D3F8F053D9D2EEEF46C1BF93B /* Pods-CCTextBookReadKit_Tests.debug.xcconfig */,
+				48FC6A25D35653BDCA7450039631E350 /* Pods-CCTextBookReadKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-CCTextBookReadKit_Tests";
+			path = "Target Support Files/Pods-CCTextBookReadKit_Tests";
+			sourceTree = "<group>";
+		};
+		BE8EEACBE381D1638EC31260E56B8079 /* CCTextBookReadKit.bundle */ = {
+			isa = PBXGroup;
+			children = (
+				9AE417F114D9AE4D81096A19456071FA /* back.png */,
+				C5BC28A5304723BD5FD3934FD58077AB /* bar_0.png */,
+				E8CB8C4CACA4EAE0A2FD408831462B49 /* bar_1.png */,
+				34DBE837B7B8724911ECE62335D6641A /* bar_2.png */,
+				DD07AEF4EC4FFA0613D1F9FBA82AFF57 /* battery_black.png */,
+				84D4A10794B646D87DA50EE121003F90 /* light_0.png */,
+				E969AB7B3071259E446D9FB7A2C1E660 /* light_1.png */,
+				863241E51D911115F4027127BDE0FA88 /* mark.png */,
+				98C7C504398E887B38C17AB5F5FD862E /* page.png */,
+				9372A9AF60FEFE67175B380CBBE139FD /* read_bg_0.png */,
+				C4EB6EFF5FD76356BBC9EEE9B82AA76D /* read_bg_0_icon.png */,
+				44C039918B2851230A7F010EBD35D32A /* slider.png */,
+				5095482E30BD6CA17CC2A81AD7D4F210 /* spacing_0.png */,
+				BB33F00F613DB3113B8E07CDE90B668E /* spacing_1.png */,
+			);
+			name = CCTextBookReadKit.bundle;
+			path = CCTextBookReadKit/Classes/CCTextBookReadKit.bundle;
+			sourceTree = "<group>";
+		};
+		C3E8F2DFB5432263260E758E03F921B6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F85E767B9B4442588F984F8C3E7C56E7 /* MBProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C419DA2718692C69484645AC8C723AC1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7490C637B10F7493CA74172781E64A6D /* CCTextBookReadKit.modulemap */,
+				9729F68622ADA10CAD668ECA78A9E2AB /* CCTextBookReadKit.xcconfig */,
+				92D0A7B34F7BED1D83C8B311B86E019C /* CCTextBookReadKit-dummy.m */,
+				7F008250708CD7425981A82480C7AD8E /* CCTextBookReadKit-Info.plist */,
+				750515E9FA304991F9D74A22DCD208DB /* CCTextBookReadKit-prefix.pch */,
+				B2D89ED0510788B710EA7C66BD53699E /* CCTextBookReadKit-umbrella.h */,
+				C8504A2144C6BC54A9499E7C90A3D767 /* ResourceBundle-CCTextBookReadKit-CCTextBookReadKit-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CCTextBookReadKit";
+			sourceTree = "<group>";
+		};
+		C8332EBFD43CDF911F752AB8D7867180 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90163470F0294A2EE560D54F82212452 /* CCBRKCoverController.framework */,
+				5128B769FD9EC0DCEA1780C37324D8E1 /* CCBRKMagnifierView.bundle */,
+				ABDA4F3269A42FB4EAF6B45A5540CC5E /* CCBRKMagnifierView.framework */,
+				279CC5D8E5B63487CE31457C88262BAF /* CCBRKSegmentedControl.framework */,
+				AE90F7A469119A163BD06BFF593B3883 /* CCBRKValuePopUpView.framework */,
+				CF6206D270E38867493C93005C437F67 /* CCProgressHUDKit.bundle */,
+				E1DCE25D97A5188A0279C38C9F77D926 /* CCProgressHUDKit.framework */,
+				5C6B3953A0AA530451F5A2D6B4920B04 /* CCTextBookReadKit.bundle */,
+				13168483016C73A275548FD34D8D7E31 /* CCTextBookReadKit.framework */,
+				85D03BEC2CA9B2DB28398618379E7744 /* FDFullscreenPopGesture.framework */,
+				7EDE4A2C620092CD38337F030C3560D8 /* Pods_CCTextBookReadKit_Example.framework */,
+				03F94CAA0591A28E34BDA122E77E40DE /* Pods_CCTextBookReadKit_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				FB94E15A1943A8E5BF6144F6A947B1D7 /* Development Pods */,
+				4A91CAC0A6F369C36C35E9A77CD6BF30 /* Frameworks */,
+				8023FF31916A714475CC20B527A86D60 /* Pods */,
+				C8332EBFD43CDF911F752AB8D7867180 /* Products */,
+				54690871056C93E0EB31717C3EE400F3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D289390953F8585A92BB923ED258E30F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D46F93E5B92D9F1939766E066C73911F /* CCBRKValuePopUpView.modulemap */,
+				D9C1F184C503C709DB59D3F3E66C6D85 /* CCBRKValuePopUpView.xcconfig */,
+				1B3C3DACD1053B306C8EF9CD109AD4AB /* CCBRKValuePopUpView-dummy.m */,
+				62DD6E7909938D4CE58BAD6DAD797A5F /* CCBRKValuePopUpView-Info.plist */,
+				1848D4DF7714ED036C47D902C5919D5B /* CCBRKValuePopUpView-prefix.pch */,
+				B4D6C077B0BB09093B589A4E8A99B35C /* CCBRKValuePopUpView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CCBRKValuePopUpView";
+			sourceTree = "<group>";
+		};
+		D7CAC563AFD5CEB17ACE4C6E363495E4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E43D7DC1DF977F5E676724927C83F9AA /* CCBRKCoverController.modulemap */,
+				39D6ED1B223001B25612417F4DB39522 /* CCBRKCoverController.xcconfig */,
+				A9E2922D3B82CA6474FB4645CE2AA082 /* CCBRKCoverController-dummy.m */,
+				3C8E38D2DEE0124F336C13C5432058A1 /* CCBRKCoverController-Info.plist */,
+				20E54D185BE9F209769C9BEE2E632CC1 /* CCBRKCoverController-prefix.pch */,
+				7EC500CE7C4C188DCF0B2D42ED806EF4 /* CCBRKCoverController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CCBRKCoverController";
+			sourceTree = "<group>";
+		};
+		DB41373E1AEA898C42D57473E363903B /* CCBRKMagnifierView */ = {
+			isa = PBXGroup;
+			children = (
+				64EA7A8203EFD90B25580B6D8496DAC7 /* CCBRKMagnifierView.h */,
+				F0F6E2BC99F64F801B01C2C2E0814CD0 /* CCBRKMagnifierView.m */,
+				72325D0F8498BB326F933AC2DF6C10A9 /* Resources */,
+				85668A5A220BA216DC3D36D3231FA9C7 /* Support Files */,
+			);
+			name = CCBRKMagnifierView;
+			path = CCBRKMagnifierView;
+			sourceTree = "<group>";
+		};
+		DB96B819B8DACD715D1F6960B8CCD3EC /* CCBRKSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				99FD94A548EE7884A40B703359311221 /* CCBRKSegmentedControl.h */,
+				CE45E03CB7D22FC6B8633EA9CD1C3041 /* CCBRKSegmentedControl.m */,
+				1D28E7A4D131D39B2CD778BC88075ADF /* Support Files */,
+			);
+			name = CCBRKSegmentedControl;
+			path = CCBRKSegmentedControl;
+			sourceTree = "<group>";
+		};
+		DD2FE931C6377E456E2A089EAE22E25A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				65AFDD15F5B4EF971D82C179AD1551CF /* CCTextBookReadKit.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E4A782EF390FE0FA24C23515B641B958 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D69AFF9FDE0A575AF4E84ACF70BEB20A /* DZMReadContentView.swift */,
+				E59A5D57C75644B063268F5FCECD72E6 /* DZMReadLeftView */,
+			);
+			name = view;
+			path = CCTextBookReadKit/Classes/view;
+			sourceTree = "<group>";
+		};
+		E59A5D57C75644B063268F5FCECD72E6 /* DZMReadLeftView */ = {
+			isa = PBXGroup;
+			children = (
+				FFCC888B606E05A9BE11C44E459C4F9D /* DZMReadCatalogCell.swift */,
+				7B6FD47FED4E7164A7ECC5B4E4A9E76A /* DZMReadCatalogView.swift */,
+				BDBEE170224B02567687E867A6DDC020 /* DZMReadLeftView.swift */,
+				C3DCE1F9B81BB30C42E3A3F70F2B2FBD /* DZMReadMarkCell.swift */,
+				5FD9B2B436AF45EDE2D949990930CB95 /* DZMReadMarkView.swift */,
+			);
+			name = DZMReadLeftView;
+			path = DZMReadLeftView;
+			sourceTree = "<group>";
+		};
+		E8201CC26E826720BD32C7FCAE7AE67F /* CCBRKValuePopUpView */ = {
+			isa = PBXGroup;
+			children = (
+				18A5A4085E97D942CC2286DF9772411C /* CCBRKValuePopUpView.h */,
+				DF7C9E166A8AC5FB10BBE65F3C948E8F /* CCBRKValuePopUpView.m */,
+				A48D07A2B4DB70AF7CD05AE46F8E229A /* CCBRKValueTrackingSlider.h */,
+				28246DA837E73CDDEB6CB96EA8BA0FE1 /* CCBRKValueTrackingSlider.m */,
+				D289390953F8585A92BB923ED258E30F /* Support Files */,
+			);
+			name = CCBRKValuePopUpView;
+			path = CCBRKValuePopUpView;
+			sourceTree = "<group>";
+		};
+		F1615AED3DF958BC8398E0D50BFB5938 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D529301C1D16126B36EACA4020E2DAC8 /* FDFullscreenPopGesture.modulemap */,
+				4D116DBB820C52A57DE2F1277DB15414 /* FDFullscreenPopGesture.xcconfig */,
+				B016C759DADD75A4B3F2D93578FFBB70 /* FDFullscreenPopGesture-dummy.m */,
+				A6AE07E734869271D21A778DA99D040E /* FDFullscreenPopGesture-Info.plist */,
+				1DB91DDE22F7E8AD9E2CF67F1C7B1519 /* FDFullscreenPopGesture-prefix.pch */,
+				5A72A2110BA56084314CCE1AB17D76EC /* FDFullscreenPopGesture-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FDFullscreenPopGesture";
+			sourceTree = "<group>";
+		};
+		F9279163B9E5E473D9DE142F39B2F333 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AEA4FDEE69F7429418DA8D28B6CBC6E0 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FB94E15A1943A8E5BF6144F6A947B1D7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				269212C85A58669CD047396E63009C23 /* CCTextBookReadKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FBC2997C644A529E23825C76F1213CF3 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				C3C1ACC3B39918573ADF4F4F9F895614 /* DZMReadLongPressViewController.swift */,
+				E9812C00FE4A51E50BC662259D654913 /* DZMReadViewBGController.swift */,
+				31081DF57B0596EC491786595728ED5E /* DZMReadViewController.swift */,
+				A322E7A9D8B699CA6425DF189A130109 /* DZMReadViewScrollController.swift */,
+			);
+			name = controller;
+			path = controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		18237905107759D7DC0E0B16E547E280 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F309122D51019BB4AF20A8CF2FB9F6 /* CCBRKCoverController-umbrella.h in Headers */,
+				57B717EA1E9FED8359494706A960502E /* CCBRKCoverController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		294783FC5848D2E265245BC7438CC280 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B108B247AEBDCDA0C0188524C121746 /* Pods-CCTextBookReadKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		469DB3B14E95F28593651471EB08433D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D127B4A544F635692D67A0DD852D81A /* CCBRKSegmentedControl-umbrella.h in Headers */,
+				5ACB249DE144AF67638D16492B3A05A8 /* CCBRKSegmentedControl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AAF564C703EC9829F9127A754FC2AEF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C1BB8A1B60239ADEBB5A952A7CC132 /* FDFullscreenPopGesture-umbrella.h in Headers */,
+				26D70FE41F59C5AB84002BC7764D0155 /* UINavigationController+FDFullscreenPopGesture.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C52F83609315299175D14CCF07ED989 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3151E261D3361B0752A0215330D500A /* CCProgressHUDKit-umbrella.h in Headers */,
+				86C4FD0B9D2EC8675C43B66FF9325EB1 /* MBProgressHUD+CCUD.h in Headers */,
+				AEA3012A1B0A593D150755524E089638 /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		616BEFC796BB22D2BEC9755A1CB506D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12B9DE6BF1CF3D620D99419EC2343EE9 /* CCBRKMagnifierView-umbrella.h in Headers */,
+				548C80C8593980C9A38AD0567A4AA21E /* CCBRKMagnifierView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A087F6744B8CBAC560FA2DA6B36709BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDA287661E4119736131468C552C92ED /* CCTextBookReadKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D73DA5421243C59B3CCFF5F1F453D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C536396E291E6FED6C14145B6CD01712 /* Pods-CCTextBookReadKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7FC0930DCBC9A7A5220AFDCD4E76016 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777D691C1FD311E29367DAEEFA230399 /* CCBRKValuePopUpView-umbrella.h in Headers */,
+				B718D9CA921A54ED6587B83C0E04F680 /* CCBRKValuePopUpView.h in Headers */,
+				21BE05189311916B2D8E6400FBCBC4A6 /* CCBRKValueTrackingSlider.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0CDD8FAD9933A193C2E55FF8CCBC0062 /* CCTextBookReadKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DF3641F74C7F4FF8456534DAD07C117 /* Build configuration list for PBXNativeTarget "CCTextBookReadKit" */;
+			buildPhases = (
+				A087F6744B8CBAC560FA2DA6B36709BE /* Headers */,
+				250CD01DACD103C71457BA15F361796D /* Sources */,
+				3C27683952E3A191B6F2556AD06BAA66 /* Frameworks */,
+				1870BE1D45AC18171A841C533A8DA3F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6A19789017C1777EE0B797C43B3C149 /* PBXTargetDependency */,
+				F8A56DC7584CE5100309DED7AF20416E /* PBXTargetDependency */,
+				3A4E604239147013786C753B3CA7194A /* PBXTargetDependency */,
+				B453129BD0495D4FFA837058308219E9 /* PBXTargetDependency */,
+				17DC58549EDCC98B6BB4489D06884AAF /* PBXTargetDependency */,
+				F37C19303DDB6D2BCBF5DCA27E3B0BB6 /* PBXTargetDependency */,
+				F21C131C38C89CA0E04CA0BC4CA99423 /* PBXTargetDependency */,
+			);
+			name = CCTextBookReadKit;
+			productName = CCTextBookReadKit;
+			productReference = 13168483016C73A275548FD34D8D7E31 /* CCTextBookReadKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		220D89CF2B9EFE37FA51F466D8652BD0 /* CCBRKSegmentedControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6BE7AEABEEB3FEBAA4CD724D985AD6E /* Build configuration list for PBXNativeTarget "CCBRKSegmentedControl" */;
+			buildPhases = (
+				469DB3B14E95F28593651471EB08433D /* Headers */,
+				E4F3659E92935456B568865B36A7C228 /* Sources */,
+				8234A28F5E7C66B7CF9109928DC4DE43 /* Frameworks */,
+				197C1B83309F39F0B6860029FDB3A27A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCBRKSegmentedControl;
+			productName = CCBRKSegmentedControl;
+			productReference = 279CC5D8E5B63487CE31457C88262BAF /* CCBRKSegmentedControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		32CE96B528435DA37CD0A1B849EB7BB0 /* Pods-CCTextBookReadKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF9CCCAD0EA0793DC57D0D6D16A31B59 /* Build configuration list for PBXNativeTarget "Pods-CCTextBookReadKit_Tests" */;
+			buildPhases = (
+				294783FC5848D2E265245BC7438CC280 /* Headers */,
+				59C1EA01EDD27BF60FE019055085F3AE /* Sources */,
+				180143BC019D7D85F8663073B22FFEB5 /* Frameworks */,
+				8416BAB25DBC23790B268E73C16349D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C7F1FA56887C43985F48469D8EAF989 /* PBXTargetDependency */,
+			);
+			name = "Pods-CCTextBookReadKit_Tests";
+			productName = "Pods-CCTextBookReadKit_Tests";
+			productReference = 03F94CAA0591A28E34BDA122E77E40DE /* Pods_CCTextBookReadKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3EA99DB8A80793C30E7F265F358DB2A8 /* CCBRKMagnifierView-CCBRKMagnifierView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9FE69D52004C7645D5D3DB30C327D06 /* Build configuration list for PBXNativeTarget "CCBRKMagnifierView-CCBRKMagnifierView" */;
+			buildPhases = (
+				88E616373289885A626B8FC3B81ED3F2 /* Sources */,
+				B164D0922ADE792EB7CFBF33C56C70C6 /* Frameworks */,
+				4DE11312A3734E13018590B654E9B6A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CCBRKMagnifierView-CCBRKMagnifierView";
+			productName = "CCBRKMagnifierView-CCBRKMagnifierView";
+			productReference = 5128B769FD9EC0DCEA1780C37324D8E1 /* CCBRKMagnifierView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		5A944CA70888A6EFA328B718A00A5B73 /* CCBRKValuePopUpView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C07A6F66180583EEBD47BFF7900E36C /* Build configuration list for PBXNativeTarget "CCBRKValuePopUpView" */;
+			buildPhases = (
+				D7FC0930DCBC9A7A5220AFDCD4E76016 /* Headers */,
+				D149462A2AC9FD6F02D5A7E14B8C085C /* Sources */,
+				EA6DCBB2D07087953D1D6FFDEC0D551C /* Frameworks */,
+				0A0EC6772B6B8804259B2B22E8273058 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCBRKValuePopUpView;
+			productName = CCBRKValuePopUpView;
+			productReference = AE90F7A469119A163BD06BFF593B3883 /* CCBRKValuePopUpView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5D68498288A7E0C51150112480E3D2DD /* CCProgressHUDKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA3EC4B10B6C0F2679C494D37D46AA0 /* Build configuration list for PBXNativeTarget "CCProgressHUDKit" */;
+			buildPhases = (
+				5C52F83609315299175D14CCF07ED989 /* Headers */,
+				9FF9F205B9A4C9CD45D5E0508E57137A /* Sources */,
+				7E36AC4F4292A3FE8C73433BF50F5FC6 /* Frameworks */,
+				CB6ED981B09BA7C60458641F458F4DF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5D954AB5A09688CC5713844659C96AE /* PBXTargetDependency */,
+			);
+			name = CCProgressHUDKit;
+			productName = CCProgressHUDKit;
+			productReference = E1DCE25D97A5188A0279C38C9F77D926 /* CCProgressHUDKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6B64142844EAE36F96EEC8005923F43D /* CCBRKMagnifierView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CB5966892B4C4488540AD85818A358D /* Build configuration list for PBXNativeTarget "CCBRKMagnifierView" */;
+			buildPhases = (
+				616BEFC796BB22D2BEC9755A1CB506D6 /* Headers */,
+				73C57C76E62B32500046FED5F0B5A2DB /* Sources */,
+				392121A1F1FD9425F7A8DD42572E7714 /* Frameworks */,
+				ACBFCC3DFC975E222EB45DD0A740969C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3441321CD49133795E9D1247C5F2EBB /* PBXTargetDependency */,
+			);
+			name = CCBRKMagnifierView;
+			productName = CCBRKMagnifierView;
+			productReference = ABDA4F3269A42FB4EAF6B45A5540CC5E /* CCBRKMagnifierView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8FE0EB310F454719A11FBFEAAC09FE3E /* FDFullscreenPopGesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 280D71769441437AF9D80BA7DC725AE3 /* Build configuration list for PBXNativeTarget "FDFullscreenPopGesture" */;
+			buildPhases = (
+				4AAF564C703EC9829F9127A754FC2AEF /* Headers */,
+				E4923C4578DD03390D0F2E54BF905E81 /* Sources */,
+				1076DDB5B3283A2836BFABBD0C2CB015 /* Frameworks */,
+				E6298EEB643EEDC0824561F09EA7E533 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FDFullscreenPopGesture;
+			productName = FDFullscreenPopGesture;
+			productReference = 85D03BEC2CA9B2DB28398618379E7744 /* FDFullscreenPopGesture.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A1D0D77A1BC85CED900704608B749555 /* CCTextBookReadKit-CCTextBookReadKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC681658E4F8BB1D139A9AABB313AEFD /* Build configuration list for PBXNativeTarget "CCTextBookReadKit-CCTextBookReadKit" */;
+			buildPhases = (
+				33EBE2B72B87D5758F032AE9649D3F74 /* Sources */,
+				76D72BCAE10BF412D8526939B4B3DC7E /* Frameworks */,
+				41AC92BF0B834A4FE22947D98ED693B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CCTextBookReadKit-CCTextBookReadKit";
+			productName = "CCTextBookReadKit-CCTextBookReadKit";
+			productReference = 5C6B3953A0AA530451F5A2D6B4920B04 /* CCTextBookReadKit.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B483ADC692492C447700169224CEA3F8 /* CCBRKCoverController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB6BF2CBABF5BABE864D719563CF217 /* Build configuration list for PBXNativeTarget "CCBRKCoverController" */;
+			buildPhases = (
+				18237905107759D7DC0E0B16E547E280 /* Headers */,
+				33892B65B1C1BB8D143E78EAF4E5D0C4 /* Sources */,
+				E1279F566412757BBC2971150F668E05 /* Frameworks */,
+				B87C157ED29C60C06A11B7F75FD4A09F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCBRKCoverController;
+			productName = CCBRKCoverController;
+			productReference = 90163470F0294A2EE560D54F82212452 /* CCBRKCoverController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D7498201E78E06E95E88094A7C36032C /* CCProgressHUDKit-CCProgressHUDKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9712FAA662A63B08857ED73407716161 /* Build configuration list for PBXNativeTarget "CCProgressHUDKit-CCProgressHUDKit" */;
+			buildPhases = (
+				3180BC1B71C0EB083ECF7139E5CB0CD3 /* Sources */,
+				B75CE7DE90379011AF1D83B62ED0F6D9 /* Frameworks */,
+				84B7913A3FCCFDDE340659A78678E93F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CCProgressHUDKit-CCProgressHUDKit";
+			productName = "CCProgressHUDKit-CCProgressHUDKit";
+			productReference = CF6206D270E38867493C93005C437F67 /* CCProgressHUDKit.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		E8DB8ED2CBD7AFC85EF29DCBD0A340D9 /* Pods-CCTextBookReadKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17057B0E2587559A294A8671ABF601CC /* Build configuration list for PBXNativeTarget "Pods-CCTextBookReadKit_Example" */;
+			buildPhases = (
+				D3D73DA5421243C59B3CCFF5F1F453D3 /* Headers */,
+				0B52381D7483D3479B565124F63FF8F7 /* Sources */,
+				3087D60ACD9F976982E1ADB246C58D75 /* Frameworks */,
+				12BEE4A66E2EB6A711702CB7EED8E8FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91904CFC8C420DC35E2A0E9E5B6FB1C6 /* PBXTargetDependency */,
+				F2E8AC6802F126A95F2FE7E050377B16 /* PBXTargetDependency */,
+				25C0AE28177E762B5174478C251751F9 /* PBXTargetDependency */,
+				EA79BDDC8FEE0FA26DAF690B14F91F46 /* PBXTargetDependency */,
+				DA960A388CCD581C0DAE0A8D50BC0DC0 /* PBXTargetDependency */,
+				EA1110015B2CDC979C7477AF35B8A934 /* PBXTargetDependency */,
+				C5982C97493D372510CA9F9463ACB350 /* PBXTargetDependency */,
+			);
+			name = "Pods-CCTextBookReadKit_Example";
+			productName = "Pods-CCTextBookReadKit_Example";
+			productReference = 7EDE4A2C620092CD38337F030C3560D8 /* Pods_CCTextBookReadKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C8332EBFD43CDF911F752AB8D7867180 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B483ADC692492C447700169224CEA3F8 /* CCBRKCoverController */,
+				6B64142844EAE36F96EEC8005923F43D /* CCBRKMagnifierView */,
+				3EA99DB8A80793C30E7F265F358DB2A8 /* CCBRKMagnifierView-CCBRKMagnifierView */,
+				220D89CF2B9EFE37FA51F466D8652BD0 /* CCBRKSegmentedControl */,
+				5A944CA70888A6EFA328B718A00A5B73 /* CCBRKValuePopUpView */,
+				5D68498288A7E0C51150112480E3D2DD /* CCProgressHUDKit */,
+				D7498201E78E06E95E88094A7C36032C /* CCProgressHUDKit-CCProgressHUDKit */,
+				0CDD8FAD9933A193C2E55FF8CCBC0062 /* CCTextBookReadKit */,
+				A1D0D77A1BC85CED900704608B749555 /* CCTextBookReadKit-CCTextBookReadKit */,
+				8FE0EB310F454719A11FBFEAAC09FE3E /* FDFullscreenPopGesture */,
+				E8DB8ED2CBD7AFC85EF29DCBD0A340D9 /* Pods-CCTextBookReadKit_Example */,
+				32CE96B528435DA37CD0A1B849EB7BB0 /* Pods-CCTextBookReadKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A0EC6772B6B8804259B2B22E8273058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12BEE4A66E2EB6A711702CB7EED8E8FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1870BE1D45AC18171A841C533A8DA3F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3C24738DC777CAD6F479A5739C2E2C /* CCTextBookReadKit.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		197C1B83309F39F0B6860029FDB3A27A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AC92BF0B834A4FE22947D98ED693B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04263BA18791CF44CD6BF7817BC7B7B9 /* CCTextBookReadKit.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DE11312A3734E13018590B654E9B6A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD204E777A49D04DE4D99973243C34C /* magnifier_0.png in Resources */,
+				20FC6C128A53C1E0C59F5A1E28C08031 /* magnifier_1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8416BAB25DBC23790B268E73C16349D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B7913A3FCCFDDE340659A78678E93F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78E1F478FFDD7DE4A900262B3A01E6BE /* MBProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACBFCC3DFC975E222EB45DD0A740969C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E2196BCED9255CF818694FEA889066E /* CCBRKMagnifierView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B87C157ED29C60C06A11B7F75FD4A09F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB6ED981B09BA7C60458641F458F4DF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D62551D2EEBFB5467D8998BE8EEA907 /* CCProgressHUDKit.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6298EEB643EEDC0824561F09EA7E533 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B52381D7483D3479B565124F63FF8F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3CCB484E0DF0B266CDD20E129FDCBE4 /* Pods-CCTextBookReadKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		250CD01DACD103C71457BA15F361796D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F500D389CD76EC020E905B127D039976 /* back.png in Sources */,
+				7DFA3B58CB1DA6098BD59954C2984701 /* bar_0.png in Sources */,
+				53CB7165CA9FE57EE2E9467783BEC78E /* bar_1.png in Sources */,
+				7A92C29A576B7582905E9EC06E1734D8 /* bar_2.png in Sources */,
+				467436C5CC82DA1A66263CDEDC29A11B /* battery_black.png in Sources */,
+				90DD8551809817349949635B49DCF3DE /* CCTextBookReadKit-dummy.m in Sources */,
+				09B66257B877001FC467F07235396342 /* DZMBatteryView.swift in Sources */,
+				D44687CF59B8F7BB961F8DBE597609DB /* DZMColorList.swift in Sources */,
+				E84C5426E3E716A61266361AD14BB545 /* DZMCoreText.swift in Sources */,
+				B67E03561ED2865A32BDD8C5704D3721 /* DZMEnumList.swift in Sources */,
+				9BC3E8AA22F8697D99993CD877A218AB /* DZMFontList.swift in Sources */,
+				22F32D8F27D40D5AF4C57D1E4A0ACA20 /* DZMKeyedArchiver.swift in Sources */,
+				A3AE6542D3F523CA39687D85FF4E651E /* DZMPublic.swift in Sources */,
+				1C7F54504B4A658BD217796232FF183C /* DZMReadCatalogCell.swift in Sources */,
+				35771081FA0877C3E575EB04AE62B135 /* DZMReadCatalogView.swift in Sources */,
+				9CFF626C5E528AFEA037CA37D78449DF /* DZMReadChapterListModel.swift in Sources */,
+				366BAA2990351647928C5E6AF30D0E8A /* DZMReadChapterModel.swift in Sources */,
+				FD10AA32459B84F099BA9376C31EA633 /* DZMReadConfigure.swift in Sources */,
+				D581BE0467DB86A6EAF4CFDDA44E23CF /* DZMReadContentView.swift in Sources */,
+				7CB8171DC1EB7D7CCAC4398D9B5CF080 /* DZMReadController+EffectType.swift in Sources */,
+				6F554388F5BCFCE6E072F530742473BB /* DZMReadController+Operation.swift in Sources */,
+				D7187F60E4B19382D17E9F5C02025179 /* DZMReadController.swift in Sources */,
+				0674C8F0AD6CEAF774601D9DA82810B2 /* DZMReadHomeView.swift in Sources */,
+				37B12641833EB88A19B0CB7343FFD89E /* DZMReadHomeViewCell.swift in Sources */,
+				530BE5EFA6D119083F82D1E68F1076CD /* DZMReadLeftView.swift in Sources */,
+				29FD3B1B4721A2F95DE458CFC0377E3A /* DZMReadLongPressCursorView.swift in Sources */,
+				81600865F9F1DB7C375201E47BB39D25 /* DZMReadLongPressView.swift in Sources */,
+				D5C0A43DB95383FB0946E905FC11F88B /* DZMReadLongPressViewController.swift in Sources */,
+				95F3EECC7C92EA20F68ADFA45214F1B3 /* DZMReadMarkCell.swift in Sources */,
+				6A882571702B1BA1632F0A4F59ACA205 /* DZMReadMarkModel.swift in Sources */,
+				311AB23E99F2040F879446597262D613 /* DZMReadMarkView.swift in Sources */,
+				0991C4C18315717AFF5172795C6D731C /* DZMReadMenu.swift in Sources */,
+				185BC0F3ECC7F60B90DA48D5387A5DA2 /* DZMReadModel+Mark.swift in Sources */,
+				B979DAAAC37049E02093A5BB64CF2E1D /* DZMReadModel.swift in Sources */,
+				06D1610B69C11DB14A02F54887125116 /* DZMReadPageModel.swift in Sources */,
+				B8DFC91997D6E477A9477ECA2EE59229 /* DZMReadParser.swift in Sources */,
+				D8FD349C9944F7432D654306795762CF /* DZMReadRecordModel.swift in Sources */,
+				BDC42BF74DA2756B51BD3C257EE2893C /* DZMReadTextFastParser.swift in Sources */,
+				6E0B4EC81D69FC14323ABD3B29754B4E /* DZMReadTextParser.swift in Sources */,
+				4CCD8FB1E61E1582EEF4897A7639ABF2 /* DZMReadView.swift in Sources */,
+				2DB0A61962BA7624321B2878CC2F6FFB /* DZMReadViewBGController.swift in Sources */,
+				BA380E464D84675D4971D7175D460D92 /* DZMReadViewCell.swift in Sources */,
+				30414138BEDD2D989D7FF43E847142F7 /* DZMReadViewController.swift in Sources */,
+				2EB150EC007EEBC586CE94143B158B16 /* DZMReadViewScrollController.swift in Sources */,
+				89C696329993FE5B495000CB1601D94F /* DZMReadViewStatusBottomView.swift in Sources */,
+				FD6A9B8F0F6C4E3A31B382B96E67AE7D /* DZMReadViewStatusTopView.swift in Sources */,
+				65C0CC1B74BA16B886E8B27DD250A022 /* DZMRMBaseView.swift in Sources */,
+				4F00D6ADBFA8ED54B2B37A270A2CAB11 /* DZMRMBGColorView.swift in Sources */,
+				2AB3CF18B6252F0B50CD60B165C8427F /* DZMRMBottomView.swift in Sources */,
+				01C45673236420E80D9CDA313EB2F213 /* DZMRMEffectTypeView.swift in Sources */,
+				87953CD3ABA19C133D25EF62F9A27576 /* DZMRMFontSizeView.swift in Sources */,
+				27568E3C2D2CA2327B9335B778422EB6 /* DZMRMFontTypeView.swift in Sources */,
+				9BE03CDDC865584B0550105D7898305D /* DZMRMFuncView.swift in Sources */,
+				2C971DB436BBC38D04C2A3BC96198872 /* DZMRMLightView.swift in Sources */,
+				BAFC430CF38ABC8EF367ABEA3BB99DB9 /* DZMRMProgressView.swift in Sources */,
+				A8D0CA9FC8E903FF2C3EA1D7949CBCB7 /* DZMRMSettingView.swift in Sources */,
+				B474FA3F35CBCE5FD31CD865D4AF275B /* DZMRMSpacingView.swift in Sources */,
+				BFA021D567723DAC68A78384E18863BF /* DZMRMTopView.swift in Sources */,
+				5834E2EE7BC8811B7693FA70B6E95C60 /* DZMSpaceList.swift in Sources */,
+				A9AAAF7FDBFF4B0204E53D3A23A5FAEE /* DZMTableView.swift in Sources */,
+				742E5CFDBE55783A2BE8B571C4BE89AF /* DZMUserDefaults.swift in Sources */,
+				95F689612DE1F8F7D0E5935EC14EE1E9 /* DZMViewController.swift in Sources */,
+				B565693BEA8A57DF5D515AE199C94335 /* light_0.png in Sources */,
+				2FE20DFAF06CB81367C6A4F8B65DD15E /* light_1.png in Sources */,
+				49547FF0BC09E1029222D79E5500B5D2 /* mark.png in Sources */,
+				B9E903D95187227B8968C493EA754CE1 /* page.png in Sources */,
+				AF38613278C4A042D53838420D43A24D /* read_bg_0.png in Sources */,
+				DC1C4B8783C94072A16223AA9FD663B8 /* read_bg_0_icon.png in Sources */,
+				2B3AB37055BE7E574C998688F635C0F4 /* slider.png in Sources */,
+				E6991FC73CD1039F8983001905E7FB91 /* spacing_0.png in Sources */,
+				2F7C0F2A314A6D13887BCD325492EB5B /* spacing_1.png in Sources */,
+				881FA7587FF708439657AEB08CAD464C /* String+Extension.swift in Sources */,
+				11629CD39B8FBEE1A417B52B6833F34C /* UIPageViewController+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3180BC1B71C0EB083ECF7139E5CB0CD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33892B65B1C1BB8D143E78EAF4E5D0C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB00FFD1CA8D138F09FED73FBFD973CE /* CCBRKCoverController-dummy.m in Sources */,
+				D27378252B2F522FF8B875353820D392 /* CCBRKCoverController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33EBE2B72B87D5758F032AE9649D3F74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59C1EA01EDD27BF60FE019055085F3AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54674EBE6D2DB4AE4A0ABAFA60CAF7F1 /* Pods-CCTextBookReadKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73C57C76E62B32500046FED5F0B5A2DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B87E3244896775BE32F457850868CDEE /* CCBRKMagnifierView-dummy.m in Sources */,
+				EB90EBE5D1746A2EFDF695A25E15DD55 /* CCBRKMagnifierView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88E616373289885A626B8FC3B81ED3F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FF9F205B9A4C9CD45D5E0508E57137A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F84B1618221A8B735825F14AA549131 /* CCProgressHUDKit-dummy.m in Sources */,
+				E6F17364B7552EEA2D5EC26DBAFA951A /* error.png in Sources */,
+				03B41444FE6349EC2E8F6B94FBCC496F /* error@2x.png in Sources */,
+				A9F58DB40FBDD6A12E1DFBEFE14E8D84 /* error@3x.png in Sources */,
+				8185AC1C39CD1DC6B88E03333A26289D /* MBProgressHUD+CCUD.m in Sources */,
+				99613D895C54F1A90A6181865C349081 /* MBProgressHUD.m in Sources */,
+				105372626A3D14F82BD8041F811519BF /* right.png in Sources */,
+				B139ABF74C39BF08B21D3CB90A0AFCF9 /* right@2x.png in Sources */,
+				C4C39E8A1D180634C0220B80FF8ED390 /* right@3x.png in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D149462A2AC9FD6F02D5A7E14B8C085C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BC4DBC7677141733B1EBCFF85055836 /* CCBRKValuePopUpView-dummy.m in Sources */,
+				FA09AED756A4DE7AD708B611D4C9FB66 /* CCBRKValuePopUpView.m in Sources */,
+				D82A9CF9AB6E37511755F21E3B156527 /* CCBRKValueTrackingSlider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4923C4578DD03390D0F2E54BF905E81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A9EEBF2BB73698608B64274E283E081 /* FDFullscreenPopGesture-dummy.m in Sources */,
+				837BB7AD65EC930D6C54BA53CF7DF9A6 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4F3659E92935456B568865B36A7C228 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C5BE7DCC112C28068F8953A4D5F3F4 /* CCBRKSegmentedControl-dummy.m in Sources */,
+				2AF5061BD67C84598E6215BA99FD99BD /* CCBRKSegmentedControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17DC58549EDCC98B6BB4489D06884AAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CCProgressHUDKit;
+			target = 5D68498288A7E0C51150112480E3D2DD /* CCProgressHUDKit */;
+			targetProxy = 93302A96F2542BAF8100156548999350 /* PBXContainerItemProxy */;
+		};
+		25C0AE28177E762B5174478C251751F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CCBRKSegmentedControl;
+			target = 220D89CF2B9EFE37FA51F466D8652BD0 /* CCBRKSegmentedControl */;
+			targetProxy = 34CF603DA7A82E47C16BE877DAB31168 /* PBXContainerItemProxy */;
+		};
+		3A4E604239147013786C753B3CA7194A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CCBRKSegmentedControl;
+			target = 220D89CF2B9EFE37FA51F466D8652BD0 /* CCBRKSegmentedControl */;
+			targetProxy = A634F350FE16CE7A5012FF4B62C30066 /* PBXContainerItemProxy */;
+		};
+		8C7F1FA56887C43985F48469D8EAF989 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CCTextBookReadKit_Example";
+			target = E8DB8ED2CBD7AFC85EF29DCBD0A340D9 /* Pods-CCTextBookReadKit_Example */;
+			targetProxy = 4F0A52ED4276F7DAAB7DAE25F5C295CC /* PBXContainerItemProxy */;
+		};
+		91904CFC8C420DC35E2A0E9E5B6FB1C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CCBRKCoverController;
+			target = B483ADC692492C447700169224CEA3F8 /* CCBRKCoverController */;
+			targetProxy = 08900352DBBF376CAEFEF03DDFDDC4F7 /* PBXContainerItemProxy */;
+		};
+		A3441321CD49133795E9D1247C5F2EBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CCBRKMagnifierView-CCBRKMagnifierView";
+			target = 3EA99DB8A80793C30E7F265F358DB2A8 /* CCBRKMagnifierView-CCBRKMagnifierView */;
+			targetProxy = B3CB8C419DE0FD7C8ABDDCFC220FBB49 /* PBXContainerItemProxy */;
+		};
+		B453129BD0495D4FFA837058308219E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CCBRKValuePopUpView;
+			target = 5A944CA70888A6EFA328B718A00A5B73 /* CCBRKValuePopUpView */;
+			targetProxy = DBB2401B3874130F045A3490A4AF813B /* PBXContainerItemProxy */;
+		};
+		C5982C97493D372510CA9F9463ACB350 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FDFullscreenPopGesture;
+			target = 8FE0EB310F454719A11FBFEAAC09FE3E /* FDFullscreenPopGesture */;
+			targetProxy = 1A0D6EF1D9A97C32C01F36AF6ADC1E94 /* PBXContainerItemProxy */;
+		};
+		D6A19789017C1777EE0B797C43B3C149 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CCBRKCoverController;
+			target = B483ADC692492C447700169224CEA3F8 /* CCBRKCoverController */;
+			targetProxy = F261ED87437C4459B33717F4EB7B75C4 /* PBXContainerItemProxy */;
+		};
+		DA960A388CCD581C0DAE0A8D50BC0DC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CCProgressHUDKit;
+			target = 5D68498288A7E0C51150112480E3D2DD /* CCProgressHUDKit */;
+			targetProxy = A4447D907ECC4D310C0B8B9507EB059C /* PBXContainerItemProxy */;
+		};
+		EA1110015B2CDC979C7477AF35B8A934 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CCTextBookReadKit;
+			target = 0CDD8FAD9933A193C2E55FF8CCBC0062 /* CCTextBookReadKit */;
+			targetProxy = CDC2286779C9E5EEB3D73D1CFBB909B9 /* PBXContainerItemProxy */;
+		};
+		EA79BDDC8FEE0FA26DAF690B14F91F46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CCBRKValuePopUpView;
+			target = 5A944CA70888A6EFA328B718A00A5B73 /* CCBRKValuePopUpView */;
+			targetProxy = 60249EC4750A61E3D9C8C385E0C2157F /* PBXContainerItemProxy */;
+		};
+		F21C131C38C89CA0E04CA0BC4CA99423 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FDFullscreenPopGesture;
+			target = 8FE0EB310F454719A11FBFEAAC09FE3E /* FDFullscreenPopGesture */;
+			targetProxy = BD12BAB8E51D977DC244A27AF537E172 /* PBXContainerItemProxy */;
+		};
+		F2E8AC6802F126A95F2FE7E050377B16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CCBRKMagnifierView;
+			target = 6B64142844EAE36F96EEC8005923F43D /* CCBRKMagnifierView */;
+			targetProxy = EA8979255B24DDAA52CEABD0E0EDF1A1 /* PBXContainerItemProxy */;
+		};
+		F37C19303DDB6D2BCBF5DCA27E3B0BB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CCTextBookReadKit-CCTextBookReadKit";
+			target = A1D0D77A1BC85CED900704608B749555 /* CCTextBookReadKit-CCTextBookReadKit */;
+			targetProxy = DC47C627748D19569887CA0DA934FAFA /* PBXContainerItemProxy */;
+		};
+		F5D954AB5A09688CC5713844659C96AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CCProgressHUDKit-CCProgressHUDKit";
+			target = D7498201E78E06E95E88094A7C36032C /* CCProgressHUDKit-CCProgressHUDKit */;
+			targetProxy = 429B443460AEF25CDD66DBFC4096D774 /* PBXContainerItemProxy */;
+		};
+		F8A56DC7584CE5100309DED7AF20416E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CCBRKMagnifierView;
+			target = 6B64142844EAE36F96EEC8005923F43D /* CCBRKMagnifierView */;
+			targetProxy = BF4C7585F4789FD6B52E92E99E1BCDEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A7125F37E07FC38CFC74F02A9AC5E96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A409F599195747A4462A25CB80B97C0F /* CCBRKSegmentedControl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CCBRKSegmentedControl/CCBRKSegmentedControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CCBRKSegmentedControl/CCBRKSegmentedControl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CCBRKSegmentedControl/CCBRKSegmentedControl.modulemap";
+				PRODUCT_MODULE_NAME = CCBRKSegmentedControl;
+				PRODUCT_NAME = CCBRKSegmentedControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		21F4A8BE0D8D4F3F8ACFE22F23863045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77E7E28D3F8F053D9D2EEEF46C1BF93B /* Pods-CCTextBookReadKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CCTextBookReadKit_Tests/Pods-CCTextBookReadKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CCTextBookReadKit_Tests/Pods-CCTextBookReadKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		28A4EA06C0DC2962ABA3DE601034B35D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E7BD32DCD3066C4DE0C787997F05495 /* CCProgressHUDKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CCProgressHUDKit";
+				INFOPLIST_FILE = "Target Support Files/CCProgressHUDKit/ResourceBundle-CCProgressHUDKit-CCProgressHUDKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = CCProgressHUDKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		29B1E7CADED94C6A327CC7FB06C7D0E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6776F7AEFE1D9E38FB0ABC206DDD9C5B /* CCBRKMagnifierView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CCBRKMagnifierView/CCBRKMagnifierView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CCBRKMagnifierView/CCBRKMagnifierView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CCBRKMagnifierView/CCBRKMagnifierView.modulemap";
+				PRODUCT_MODULE_NAME = CCBRKMagnifierView;
+				PRODUCT_NAME = CCBRKMagnifierView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		32B1375570E51060F0350E6DFB83B866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED5E55D202C2423916FA1812C75D80DE /* Pods-CCTextBookReadKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CCTextBookReadKit_Example/Pods-CCTextBookReadKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CCTextBookReadKit_Example/Pods-CCTextBookReadKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		347DD0008BB0D078007DF3633F0F38AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9729F68622ADA10CAD668ECA78A9E2AB /* CCTextBookReadKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CCTextBookReadKit/CCTextBookReadKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CCTextBookReadKit/CCTextBookReadKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CCTextBookReadKit/CCTextBookReadKit.modulemap";
+				PRODUCT_MODULE_NAME = CCTextBookReadKit;
+				PRODUCT_NAME = CCTextBookReadKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		496D262882AD51F2908E03491A5B7B16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E7BD32DCD3066C4DE0C787997F05495 /* CCProgressHUDKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CCProgressHUDKit";
+				INFOPLIST_FILE = "Target Support Files/CCProgressHUDKit/ResourceBundle-CCProgressHUDKit-CCProgressHUDKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = CCProgressHUDKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		592FDB8DF93CD040903E55DEB29A567A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9729F68622ADA10CAD668ECA78A9E2AB /* CCTextBookReadKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CCTextBookReadKit/CCTextBookReadKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CCTextBookReadKit/CCTextBookReadKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CCTextBookReadKit/CCTextBookReadKit.modulemap";
+				PRODUCT_MODULE_NAME = CCTextBookReadKit;
+				PRODUCT_NAME = CCTextBookReadKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A1A4E48CCD9418093940FDBC1F9D2BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39D6ED1B223001B25612417F4DB39522 /* CCBRKCoverController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CCBRKCoverController/CCBRKCoverController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CCBRKCoverController/CCBRKCoverController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CCBRKCoverController/CCBRKCoverController.modulemap";
+				PRODUCT_MODULE_NAME = CCBRKCoverController;
+				PRODUCT_NAME = CCBRKCoverController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6AA82F6B1247052EAE39F587A7BFDE91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A409F599195747A4462A25CB80B97C0F /* CCBRKSegmentedControl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CCBRKSegmentedControl/CCBRKSegmentedControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CCBRKSegmentedControl/CCBRKSegmentedControl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CCBRKSegmentedControl/CCBRKSegmentedControl.modulemap";
+				PRODUCT_MODULE_NAME = CCBRKSegmentedControl;
+				PRODUCT_NAME = CCBRKSegmentedControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6FE2B390AB69DEE4863617D51591D04E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D116DBB820C52A57DE2F1277DB15414 /* FDFullscreenPopGesture.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FDFullscreenPopGesture/FDFullscreenPopGesture-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FDFullscreenPopGesture/FDFullscreenPopGesture-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FDFullscreenPopGesture/FDFullscreenPopGesture.modulemap";
+				PRODUCT_MODULE_NAME = FDFullscreenPopGesture;
+				PRODUCT_NAME = FDFullscreenPopGesture;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71675743617B831738B6203AD7316167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6776F7AEFE1D9E38FB0ABC206DDD9C5B /* CCBRKMagnifierView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CCBRKMagnifierView";
+				INFOPLIST_FILE = "Target Support Files/CCBRKMagnifierView/ResourceBundle-CCBRKMagnifierView-CCBRKMagnifierView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = CCBRKMagnifierView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		85EA4EAAED4D22082F9DFFA5FB42E5A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D116DBB820C52A57DE2F1277DB15414 /* FDFullscreenPopGesture.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FDFullscreenPopGesture/FDFullscreenPopGesture-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FDFullscreenPopGesture/FDFullscreenPopGesture-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FDFullscreenPopGesture/FDFullscreenPopGesture.modulemap";
+				PRODUCT_MODULE_NAME = FDFullscreenPopGesture;
+				PRODUCT_NAME = FDFullscreenPopGesture;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		930DC0C0E9217542C6B16401662718A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E7BD32DCD3066C4DE0C787997F05495 /* CCProgressHUDKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CCProgressHUDKit/CCProgressHUDKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CCProgressHUDKit/CCProgressHUDKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CCProgressHUDKit/CCProgressHUDKit.modulemap";
+				PRODUCT_MODULE_NAME = CCProgressHUDKit;
+				PRODUCT_NAME = CCProgressHUDKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		94752315E8D637B90B33E02EC412DF5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6776F7AEFE1D9E38FB0ABC206DDD9C5B /* CCBRKMagnifierView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CCBRKMagnifierView";
+				INFOPLIST_FILE = "Target Support Files/CCBRKMagnifierView/ResourceBundle-CCBRKMagnifierView-CCBRKMagnifierView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = CCBRKMagnifierView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		ABDE5D068D55650EEC0F88AD153403A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9729F68622ADA10CAD668ECA78A9E2AB /* CCTextBookReadKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CCTextBookReadKit";
+				INFOPLIST_FILE = "Target Support Files/CCTextBookReadKit/ResourceBundle-CCTextBookReadKit-CCTextBookReadKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = CCTextBookReadKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C172739926AA63AEEE9B5C1A5AB44964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39D6ED1B223001B25612417F4DB39522 /* CCBRKCoverController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CCBRKCoverController/CCBRKCoverController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CCBRKCoverController/CCBRKCoverController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CCBRKCoverController/CCBRKCoverController.modulemap";
+				PRODUCT_MODULE_NAME = CCBRKCoverController;
+				PRODUCT_NAME = CCBRKCoverController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C3B3C65148C8262B5C1F83BA6B419244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E7BD32DCD3066C4DE0C787997F05495 /* CCProgressHUDKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CCProgressHUDKit/CCProgressHUDKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CCProgressHUDKit/CCProgressHUDKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CCProgressHUDKit/CCProgressHUDKit.modulemap";
+				PRODUCT_MODULE_NAME = CCProgressHUDKit;
+				PRODUCT_NAME = CCProgressHUDKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C57FE953DD8A31709B354E064437810F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6776F7AEFE1D9E38FB0ABC206DDD9C5B /* CCBRKMagnifierView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CCBRKMagnifierView/CCBRKMagnifierView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CCBRKMagnifierView/CCBRKMagnifierView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CCBRKMagnifierView/CCBRKMagnifierView.modulemap";
+				PRODUCT_MODULE_NAME = CCBRKMagnifierView;
+				PRODUCT_NAME = CCBRKMagnifierView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D411C19058402C72B2DC5F6D2922C8C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 446FEE395B8FC95FF6EB0CAFF0886DB0 /* Pods-CCTextBookReadKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CCTextBookReadKit_Example/Pods-CCTextBookReadKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CCTextBookReadKit_Example/Pods-CCTextBookReadKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DF82E29D37321BAC79063AE3A7A2497F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9729F68622ADA10CAD668ECA78A9E2AB /* CCTextBookReadKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CCTextBookReadKit";
+				INFOPLIST_FILE = "Target Support Files/CCTextBookReadKit/ResourceBundle-CCTextBookReadKit-CCTextBookReadKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = CCTextBookReadKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F36370FFE4ECACCAEB0AA214B2CCEEFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9C1F184C503C709DB59D3F3E66C6D85 /* CCBRKValuePopUpView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CCBRKValuePopUpView/CCBRKValuePopUpView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CCBRKValuePopUpView/CCBRKValuePopUpView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CCBRKValuePopUpView/CCBRKValuePopUpView.modulemap";
+				PRODUCT_MODULE_NAME = CCBRKValuePopUpView;
+				PRODUCT_NAME = CCBRKValuePopUpView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F5B21666408058BA50B1F3FF2E613FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9C1F184C503C709DB59D3F3E66C6D85 /* CCBRKValuePopUpView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CCBRKValuePopUpView/CCBRKValuePopUpView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CCBRKValuePopUpView/CCBRKValuePopUpView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CCBRKValuePopUpView/CCBRKValuePopUpView.modulemap";
+				PRODUCT_MODULE_NAME = CCBRKValuePopUpView;
+				PRODUCT_NAME = CCBRKValuePopUpView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F86E5A43D775FF4F64CCD23AC65D9271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48FC6A25D35653BDCA7450039631E350 /* Pods-CCTextBookReadKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CCTextBookReadKit_Tests/Pods-CCTextBookReadKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CCTextBookReadKit_Tests/Pods-CCTextBookReadKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17057B0E2587559A294A8671ABF601CC /* Build configuration list for PBXNativeTarget "Pods-CCTextBookReadKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B1375570E51060F0350E6DFB83B866 /* Debug */,
+				D411C19058402C72B2DC5F6D2922C8C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C07A6F66180583EEBD47BFF7900E36C /* Build configuration list for PBXNativeTarget "CCBRKValuePopUpView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F36370FFE4ECACCAEB0AA214B2CCEEFE /* Debug */,
+				F5B21666408058BA50B1F3FF2E613FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		280D71769441437AF9D80BA7DC725AE3 /* Build configuration list for PBXNativeTarget "FDFullscreenPopGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85EA4EAAED4D22082F9DFFA5FB42E5A0 /* Debug */,
+				6FE2B390AB69DEE4863617D51591D04E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DF3641F74C7F4FF8456534DAD07C117 /* Build configuration list for PBXNativeTarget "CCTextBookReadKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				592FDB8DF93CD040903E55DEB29A567A /* Debug */,
+				347DD0008BB0D078007DF3633F0F38AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CB5966892B4C4488540AD85818A358D /* Build configuration list for PBXNativeTarget "CCBRKMagnifierView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29B1E7CADED94C6A327CC7FB06C7D0E1 /* Debug */,
+				C57FE953DD8A31709B354E064437810F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9712FAA662A63B08857ED73407716161 /* Build configuration list for PBXNativeTarget "CCProgressHUDKit-CCProgressHUDKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28A4EA06C0DC2962ABA3DE601034B35D /* Debug */,
+				496D262882AD51F2908E03491A5B7B16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDB6BF2CBABF5BABE864D719563CF217 /* Build configuration list for PBXNativeTarget "CCBRKCoverController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C172739926AA63AEEE9B5C1A5AB44964 /* Debug */,
+				6A1A4E48CCD9418093940FDBC1F9D2BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF9CCCAD0EA0793DC57D0D6D16A31B59 /* Build configuration list for PBXNativeTarget "Pods-CCTextBookReadKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21F4A8BE0D8D4F3F8ACFE22F23863045 /* Debug */,
+				F86E5A43D775FF4F64CCD23AC65D9271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9FE69D52004C7645D5D3DB30C327D06 /* Build configuration list for PBXNativeTarget "CCBRKMagnifierView-CCBRKMagnifierView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71675743617B831738B6203AD7316167 /* Debug */,
+				94752315E8D637B90B33E02EC412DF5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA3EC4B10B6C0F2679C494D37D46AA0 /* Build configuration list for PBXNativeTarget "CCProgressHUDKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3B3C65148C8262B5C1F83BA6B419244 /* Debug */,
+				930DC0C0E9217542C6B16401662718A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6BE7AEABEEB3FEBAA4CD724D985AD6E /* Build configuration list for PBXNativeTarget "CCBRKSegmentedControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AA82F6B1247052EAE39F587A7BFDE91 /* Debug */,
+				0A7125F37E07FC38CFC74F02A9AC5E96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC681658E4F8BB1D139A9AABB313AEFD /* Build configuration list for PBXNativeTarget "CCTextBookReadKit-CCTextBookReadKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF82E29D37321BAC79063AE3A7A2497F /* Debug */,
+				ABDE5D068D55650EEC0F88AD153403A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

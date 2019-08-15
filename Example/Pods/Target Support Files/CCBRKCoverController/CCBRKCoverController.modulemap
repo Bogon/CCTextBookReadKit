@@ -1,0 +1,6 @@
+framework module CCBRKCoverController {
+  umbrella header "CCBRKCoverController-umbrella.h"
+
+  export *
+  module * { export * }
+}

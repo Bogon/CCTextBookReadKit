@@ -1,0 +1,43 @@
+PODS:
+  - CCBRKCoverController (0.1.0)
+  - CCBRKMagnifierView (0.1.0)
+  - CCBRKSegmentedControl (0.1.0)
+  - CCBRKValuePopUpView (0.1.0)
+  - CCProgressHUDKit (1.1.1)
+  - CCTextBookReadKit (0.1.2):
+    - CCBRKCoverController (~> 0.1.0)
+    - CCBRKMagnifierView (~> 0.1.0)
+    - CCBRKSegmentedControl (~> 0.1.0)
+    - CCBRKValuePopUpView (~> 0.1.0)
+    - CCProgressHUDKit (~> 1.1.1)
+    - FDFullscreenPopGesture (~> 1.1)
+  - FDFullscreenPopGesture (1.1)
+
+DEPENDENCIES:
+  - CCTextBookReadKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CCBRKCoverController
+    - CCBRKMagnifierView
+    - CCBRKSegmentedControl
+    - CCBRKValuePopUpView
+    - CCProgressHUDKit
+    - FDFullscreenPopGesture
+
+EXTERNAL SOURCES:
+  CCTextBookReadKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CCBRKCoverController: ec417f67eded79ba8e64af87bf79a370f1964d80
+  CCBRKMagnifierView: 2034105cbdb8cfeacaa9ba29328fc87e2c3e6a1c
+  CCBRKSegmentedControl: e1bcf449c66a72ced77f9681103f5761297c99e1
+  CCBRKValuePopUpView: 4c8fd4ccfa0460f1ed644a7993137d93b15de40c
+  CCProgressHUDKit: ed58b1c1310ea745d489db816d8992a874e914f8
+  CCTextBookReadKit: 683ac712b2eec89a258cd0c60f1af196e969577e
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+
+PODFILE CHECKSUM: 68bddc9b0ff4d006bf88a54b0486044fff5f427c
+
+COCOAPODS: 1.7.4

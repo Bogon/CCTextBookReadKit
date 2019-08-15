@@ -1,0 +1,6 @@
+framework module CCBRKMagnifierView {
+  umbrella header "CCBRKMagnifierView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module CCTextBookReadKit {
+  umbrella header "CCTextBookReadKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

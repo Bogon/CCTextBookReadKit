@@ -1,0 +1,11 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CCBRKCoverController" "${PODS_CONFIGURATION_BUILD_DIR}/CCBRKMagnifierView" "${PODS_CONFIGURATION_BUILD_DIR}/CCBRKSegmentedControl" "${PODS_CONFIGURATION_BUILD_DIR}/CCBRKValuePopUpView" "${PODS_CONFIGURATION_BUILD_DIR}/CCProgressHUDKit" "${PODS_CONFIGURATION_BUILD_DIR}/CCTextBookReadKit" "${PODS_CONFIGURATION_BUILD_DIR}/FDFullscreenPopGesture"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CCBRKCoverController/CCBRKCoverController.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/CCBRKMagnifierView/CCBRKMagnifierView.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/CCBRKSegmentedControl/CCBRKSegmentedControl.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/CCBRKValuePopUpView/CCBRKValuePopUpView.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/CCProgressHUDKit/CCProgressHUDKit.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/CCTextBookReadKit/CCTextBookReadKit.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/FDFullscreenPopGesture/FDFullscreenPopGesture.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_LDFLAGS = $(inherited) -framework "CCBRKCoverController" -framework "CCBRKMagnifierView" -framework "CCBRKSegmentedControl" -framework "CCBRKValuePopUpView" -framework "CCProgressHUDKit" -framework "CCTextBookReadKit" -framework "FDFullscreenPopGesture"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

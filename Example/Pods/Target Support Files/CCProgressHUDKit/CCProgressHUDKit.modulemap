@@ -1,0 +1,6 @@
+framework module CCProgressHUDKit {
+  umbrella header "CCProgressHUDKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

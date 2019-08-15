@@ -1,0 +1,6 @@
+framework module CCBRKValuePopUpView {
+  umbrella header "CCBRKValuePopUpView-umbrella.h"
+
+  export *
+  module * { export * }
+}

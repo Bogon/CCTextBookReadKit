@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CCTextBookReadKit_Example' do
+  pod 'CCTextBookReadKit', :path => '../'
+
+  target 'CCTextBookReadKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
